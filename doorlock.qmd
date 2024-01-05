@@ -1,0 +1,17 @@
+---
+title: "스마트 도어락(K100)"
+---
+
+## K100 개요
+
+### 설치 과정
+
+{{< video https://www.youtube.com/watch?v=E1VQU53o7DQ >}}
+
+### 열림 방식 안내
+
+{{< video https://www.youtube.com/watch?v=8xRW8tKdfZU >}}
+
+### Apple Home 연동 방법
+
+{{< video https://www.youtube.com/watch?v=GnBX2MHnf5Q >}}
