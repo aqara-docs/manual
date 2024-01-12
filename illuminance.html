@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="CS/SE팀">
-<meta name="dcterms.date" content="2024-01-03">
 
-<title>Manual</title>
+<title>Manual - 10&nbsp; 조도 센서 T1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./hub_m2.html" rel="next">
+<link href="./water_leakage.html" rel="next">
+<link href="./temperature.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">아카라라이프 <em>is</em> Smart Life</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motion.html">스마트 센서</a></li><li class="breadcrumb-item"><a href="./illuminance.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -102,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">아카라라이프 <em>is</em> Smart Life</span></a>
   </div>
 </li>
@@ -141,13 +140,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./g2h.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">홈카메라 허브 G2H/G2H Pro</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">스마트 홈 카메라 허브 G2H/G2H Pro</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./g3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">홈카메라 허브 G3</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">스마트 홈카메라 허브 G3</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -204,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./illuminance.html" class="sidebar-item-text sidebar-link">
+  <a href="./illuminance.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></span></a>
   </div>
 </li>
@@ -227,14 +226,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fp1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">재실 감지 센서 FP1</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./fp2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">재실 감지 센서 FP2</span></span></a>
+  <a href="./presence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">재실 감지 센서(FP2/FP1)</span></span></a>
   </div>
 </li>
       </ul>
@@ -249,7 +242,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#아카라라이프-is-smart-life" id="toc-아카라라이프-is-smart-life" class="nav-link active" data-scroll-target="#아카라라이프-is-smart-life">아카라라이프 <em>is</em> Smart Life</a></li>
+  <li><a href="#조도-센서-t1" id="toc-조도-센서-t1" class="nav-link active" data-scroll-target="#조도-센서-t1"><span class="header-section-number">10.1</span> 조도 센서 T1</a>
+  <ul class="collapse">
+  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link" data-scroll-target="#제품-소개"><span class="header-section-number">10.1.1</span> 제품 소개</a></li>
+  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">10.1.2</span> 빠른 설정</a></li>
+  <li><a href="#설치" id="toc-설치" class="nav-link" data-scroll-target="#설치"><span class="header-section-number">10.1.3</span> 설치</a></li>
+  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">10.1.4</span> 제품 사양</a></li>
+  <li><a href="#주의사항" id="toc-주의사항" class="nav-link" data-scroll-target="#주의사항"><span class="header-section-number">10.1.5</span> 주의사항</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -258,26 +258,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manual</h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>CS/SE팀 </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">January 3, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -285,11 +273,80 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="아카라라이프-is-smart-life" class="level1 unnumbered">
-<h1 class="unnumbered">아카라라이프 <em>is</em> Smart Life</h1>
-<section id="section" class="level5">
-<h5 class="anchored" data-anchor-id="section"></h5>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1KyZAPtyPHI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="조도-센서-t1" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="조도-센서-t1"><span class="header-section-number">10.1</span> 조도 센서 T1</h2>
+<section id="제품-소개" class="level3" data-number="10.1.1">
+<h3 data-number="10.1.1" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">10.1.1</span> 제품 소개</h3>
+<p>Aqara 조도 센서는 Zigbee3.0 프로토콜를 기반으로 작동하며, 조도를 감지하고 이를 기록합니다. 조도의 변화를 감지하여 스마트폰 앱을 통한 메시지 전달이 가능할 뿐만 아니라, 다른 장치들과 결합하여 다양하고 스마트한 시나리오를 만들 수 있습니다.</p>
+<ul>
+<li><p>이 장치를 사용하려면 허브가 필요합니다.</p></li>
+<li><p>일부 기능에는 특정 허브가 필요합니다. 세부 목록에 대해서는 www.aqara.com/kr/support.html을 참조하세요.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3930604252.png" class="img-fluid figure-img" width="400"></p>
+</figure>
+</div>
+</section>
+<section id="빠른-설정" class="level3" data-number="10.1.2">
+<h3 data-number="10.1.2" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">10.1.2</span> 빠른 설정</h3>
+<section id="앱에서-허브를-추가합니다." class="level4" data-number="10.1.2.1">
+<h4 data-number="10.1.2.1" class="anchored" data-anchor-id="앱에서-허브를-추가합니다."><span class="header-section-number">10.1.2.1</span> 앱에서 허브를 추가합니다.</h4>
+</section>
+<section id="앱의-홈탭에서-우측-상단의-눌러-장치-추가-페이지로-갑니다.-조도센서-t1을-선택하고-지시에-따라-진행합니다." class="level4" data-number="10.1.2.2">
+<h4 data-number="10.1.2.2" class="anchored" data-anchor-id="앱의-홈탭에서-우측-상단의-눌러-장치-추가-페이지로-갑니다.-조도센서-t1을-선택하고-지시에-따라-진행합니다."><span class="header-section-number">10.1.2.2</span> 앱의 “홈”탭에서 우측 상단의 “+” 눌러 “장치 추가” 페이지로 갑니다. 조도센서 T1을 선택하고 지시에 따라 진행합니다.</h4>
+<ul>
+<li>연결에 실패하였다면 장치를 허브와 더 가까이하여 시도해 주세요.</li>
+</ul>
+</section>
+</section>
+<section id="설치" class="level3" data-number="10.1.3">
+<h3 data-number="10.1.3" class="anchored" data-anchor-id="설치"><span class="header-section-number">10.1.3</span> 설치</h3>
+<p>연결 유효 범위 테스트: 측면의 버튼을 한 번 눌러 설치 하려는 장소가 연결 가능 범위안에 있는지 확인 하십시오. 연결 가능한 범위 안에 있다면 허브가 정상 연결되었음을 알릴 것입니다.</p>
+<ul>
+<li>정확한 조도 측정을 위해서는 빛이 가려지지 않는 장소에 설치하는 것이 좋습니다.</li>
+</ul>
+<p>옵션 1: 원하는 위치에 올려 둡니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1976703241.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>옵션 2: 내부의 자석을 통해 금속 표면에 붙입니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1567001935.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>옵션 3: 보호 필름을 제거하고 원하는 위치에 붙입니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2340738435.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<ul>
+<li>붙이는 곳의 표면이 깨끗해야 하며 물기가 있어서는 안됩니다.</li>
+</ul>
+</section>
+<section id="제품-사양" class="level3" data-number="10.1.4">
+<h3 data-number="10.1.4" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">10.1.4</span> 제품 사양</h3>
+<p>모델명: GZCGQ11LM</p>
+<p>무선 프로토콜: Zigbee 3.0</p>
+<p>배터리: CR2450</p>
+<p>작동 습도: 0 ~ 95%, (비결로조건)</p>
+<p>감지 범위: 0 ~ 83,000 lux</p>
+<p>감지 정확도: (+-)2% (2854K의 백열등을 기준), (+-) 5%(그외 상황)</p>
+</section>
+<section id="주의사항" class="level3" data-number="10.1.5">
+<h3 data-number="10.1.5" class="anchored" data-anchor-id="주의사항"><span class="header-section-number">10.1.5</span> 주의사항</h3>
+<ul>
+<li><p>이 제품은 장난감이 아닙니다. 이 제품을 아이의 손이 닿지 않는 곳에 두세요.</p></li>
+<li><p>이 제품은 실내 사용 용도로 설계되었습니다. 습한 환경이나 실외에서 사용하지 마세요.</p></li>
+<li><p>물기를 조심합니다. 물이나 다른 액체를 제품에 엎지르지 마세요.</p></li>
+<li><p>이 제품을 열원 부근에 놓지 마세요. 제대로 환기되지 않는 곳에 놓지 마세요.</p></li>
+<li><p>이 제품을 자체적으로 수리하려고 하지 마세요. support@aqara.kr에 연락하시기 바랍니다.</p></li>
+<li><p>이 제품은 가정 생활의 오란, 편의성 및 메시지 알림을 개선하는 경우에만 적합합니다. 사용자가 제품 사용 지침을 위반하는 경우, 제조업체는 어떠한 위험 및 재산 손실에도 책임을 지지 않습니다.</p></li>
+</ul>
 
 
 </section>
@@ -531,10 +588,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./temperature.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./hub_m2.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">스마트 허브 M2</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./water_leakage.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">누수 감지 센서 T1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
