@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Manual - 11&nbsp; 누수 감지 센서 T1</title>
+<title>Manual - 15&nbsp; 스마트 큐브 T1 Pro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./fp1.html" rel="next">
-<link href="./illuminance.html" rel="prev">
+<link href="./dual_relay.html" rel="next">
+<link href="./mini_switch.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motion.html">스마트 센서</a></li><li class="breadcrumb-item"><a href="./water_leakage.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">누수 감지 센서 T1</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./mini_switch.html">스마트 무선 리모컨</a></li><li class="breadcrumb-item"><a href="./cube.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">스마트 큐브 T1 Pro</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -209,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./water_leakage.html" class="sidebar-item-text sidebar-link active">
+  <a href="./water_leakage.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">누수 감지 센서 T1</span></span></a>
   </div>
 </li>
@@ -255,8 +255,25 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cube.html" class="sidebar-item-text sidebar-link">
+  <a href="./cube.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">스마트 큐브 T1 Pro</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">스마트조명|플러그|릴레이</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dual_relay.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">듀얼 릴레이 모듈 T2 (중성선 필요)</span></span></a>
   </div>
 </li>
       </ul>
@@ -271,11 +288,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link active" data-scroll-target="#제품-소개"><span class="header-section-number">11.0.1</span> 제품 소개</a></li>
-  <li><a href="#설치" id="toc-설치" class="nav-link" data-scroll-target="#설치"><span class="header-section-number">11.0.2</span> 설치</a></li>
-  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">11.0.3</span> 제품 사양</a></li>
-  <li><a href="#경고" id="toc-경고" class="nav-link" data-scroll-target="#경고"><span class="header-section-number">11.0.4</span> 경고</a></li>
-  <li><a href="#주의-사항" id="toc-주의-사항" class="nav-link" data-scroll-target="#주의-사항"><span class="header-section-number">11.0.5</span> 주의 사항</a></li>
+  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link active" data-scroll-target="#제품-소개"><span class="header-section-number">15.1</span> 제품 소개</a></li>
+  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">15.2</span> 빠른 설정</a>
+  <ul class="collapse">
+  <li><a href="#장치-추가" id="toc-장치-추가" class="nav-link" data-scroll-target="#장치-추가"><span class="header-section-number">15.2.1</span> 장치 추가</a></li>
+  <li><a href="#유효-범위-테스트" id="toc-유효-범위-테스트" class="nav-link" data-scroll-target="#유효-범위-테스트"><span class="header-section-number">15.2.2</span> 유효 범위 테스트</a></li>
+  <li><a href="#모드-전환하기" id="toc-모드-전환하기" class="nav-link" data-scroll-target="#모드-전환하기"><span class="header-section-number">15.2.3</span> 모드 전환하기</a></li>
+  <li><a href="#배터리-교체" id="toc-배터리-교체" class="nav-link" data-scroll-target="#배터리-교체"><span class="header-section-number">15.2.4</span> 배터리 교체</a></li>
+  <li><a href="#사용-방법" id="toc-사용-방법" class="nav-link" data-scroll-target="#사용-방법"><span class="header-section-number">15.2.5</span> 사용 방법</a></li>
+  </ul></li>
+  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">15.3</span> 제품 사양</a></li>
   </ul>
 </nav>
     </div>
@@ -284,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">누수 감지 센서 T1</span></h1>
+<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">스마트 큐브 T1 Pro</span></h1>
 </div>
 
 
@@ -299,77 +321,105 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="제품-소개" class="level3" data-number="11.0.1">
-<h3 data-number="11.0.1" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">11.0.1</span> 제품 소개</h3>
-<p>Aqara 누수 감지 센서 T1은 누수와 침수 상태를 감지하여 앱을 통해 알림을 보내거나 다른 스마트 장치를 제어할 수 있은 센서입니다. 저전력 기술의 설계로 배터리 교체 없이도 오래 사용할 수 있으며, 별도의 도가가 없어도 손쉽게 제품을 설치하고 배터리를 교체하여 사용할 수 있습니다.</p>
+<section id="제품-소개" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">15.1</span> 제품 소개</h2>
+<p>아카라 큐브 T1 Pro는 최신형 무선 컨트롤러로 액션 모드와 장면 모드 두가지 모드를 지원합니다. 액션 모드는 90’ 뒤집기, 180’ 뒤집기, 두번 두드리기, 밀기, 흔들기, 회전하기 등 6가지 모드를 지원합니다. 장면 모드는 1~6의 각 숫자가 위를 향하는 경우 흔들기, 회전, 들고 있기 등 다양한 제어 방법을 지원합니다.</p>
 <ul>
-<li>해당 제품을 사용하기 위해서는 호환 가능한 스마트 허브가 반드시 필요합니다. 자세한 내용은 www.aqara.com/support를 참고해 주세요.</li>
+<li>해당 제품을 사용하기 위해서는 Zigbee을 지원하는 아카라 스마트 헙브가 반드시 필요합니다. 자세한 내용은 www.aqara.com/support를 참조해 주세요.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-1952418536.png" class="img-fluid figure-img" width="300"></p>
+<p><img src="images/clipboard-2103088268.png" class="img-fluid figure-img" width="300"></p>
 </figure>
 </div>
 </section>
-<section id="설치" class="level3" data-number="11.0.2">
-<h3 data-number="11.0.2" class="anchored" data-anchor-id="설치"><span class="header-section-number">11.0.2</span> 설치</h3>
-<ul>
-<li>장치를 설치하기 전에 해당 제품을 지원하는 스마트 허브를 반드시 설치해 주세요.</li>
-</ul>
-<section id="aqara-home-앱-다운로드" class="level4" data-number="11.0.2.1">
-<h4 data-number="11.0.2.1" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">11.0.2.1</span> Aqara Home 앱 다운로드</h4>
+<section id="빠른-설정" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">15.2</span> 빠른 설정</h2>
+<section id="장치-추가" class="level3" data-number="15.2.1">
+<h3 data-number="15.2.1" class="anchored" data-anchor-id="장치-추가"><span class="header-section-number">15.2.1</span> 장치 추가</h3>
+<p>(1) Aqara Home앱 다운로드</p>
 <p>앱 스토어에서 “Aqara Home”을 검색하거나 아래 로고를 클릭해 주세요.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://apps.apple.com/kr/app/aqara-home/id1248669703"><img src="images/clipboard-432224561.png" class="img-fluid figure-img" alt="애플 앱스토어" width="100"></a></p>
+<p><a href="https://apps.apple.com/kr/app/aqara-home/id1248669703"><img src="images/clipboard-432224561.png" class="img-fluid figure-img" width="100"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://play.google.com/store/apps/details?id=com.lumiunited.aqarahome.play&amp;pli=1"><img src="images/clipboard-1940580720.png" class="img-fluid figure-img" alt="구글 스토어" width="100"></a></p>
+<p><a href="https://play.google.com/store/apps/details?id=com.lumiunited.aqarahome.play&amp;pli=1"><img src="images/clipboard-1940580720.png" class="img-fluid figure-img" width="100"></a></p>
 </figure>
 </div>
+<p>(2) Zigbee을 지원하는 아카라 허브가 반드시 필요합니다. 허브 설치 가이드에 따라 아나카 허브를 설치해 주세요.</p>
+<p>(3) 동봉되어 있는 철제 도구를 사용하여 배터리 커버를 열어 주세요.</p>
+<p>(4) 아카라 홈 앱의 우측 상단의 “+”를 눌러 “장치 추가” - “큐브 T1 Pro”를 선택한 다음 연결할 허브를 선택해 주세요. 앱의 안내에 장치를 추가하고, 허브에 정상적으로 연결되었음을 확인 할 때까지 리셋 버튼을 5초가 길게 눌러 주세요.</p>
+<p>(5) 자세한 내용은 aqara.com/support를 참고해 주세요.</p>
 <ul>
-<li>장치 추가에 실패하는 경우, 장치를 허브에 더 가까이 이동시킨 후 다시 시도해 주세요.</li>
+<li><p>장치 추가에 실패에 경우 최대한 아카라 허브 근처로 이동한 후 다시 시도해 주세요.</p></li>
+<li><p>리셋 버튼을 빠르게 한번 누르거나 큐브를 크게 한번 휘둘러 주세요. 허브에서 소리가 나는 경우 장치와 허브가 정상적으로 연결되었음을 의미합니다.</p></li>
+<li><p>연결하는 스마트 허브마다 다른 방식으로 연결에 성공했다는 메시지를 표시합니다. 자세한 내용은 각 스마트 허브의 설명을 참고해 주세요.</p></li>
 </ul>
 </section>
-</section>
-<section id="제품-사양" class="level3" data-number="11.0.3">
-<h3 data-number="11.0.3" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">11.0.3</span> 제품 사양</h3>
-<p>제품명: 누수 감지 센서 T1</p>
-<p>모델명: WL-S02D</p>
-<p>배터리: CR2032</p>
-<p>무선 프로토콜: Zigbee 3.0</p>
-<p>제품크기: 50 x 50 x 15mm</p>
-<p>작동 온도: -10’C ~ 55’C</p>
-<p>작동습도: 0 ~ 100% RH, 비결로 조건</p>
-<p>구성품: 누수 감지 센서 T1 x 1, 사용자 매뉴얼 x 1</p>
-</section>
-<section id="경고" class="level3" data-number="11.0.4">
-<h3 data-number="11.0.4" class="anchored" data-anchor-id="경고"><span class="header-section-number">11.0.4</span> 경고</h3>
+<section id="유효-범위-테스트" class="level3" data-number="15.2.2">
+<h3 data-number="15.2.2" class="anchored" data-anchor-id="유효-범위-테스트"><span class="header-section-number">15.2.2</span> 유효 범위 테스트</h3>
+<p>유효 범위 테스트: 큐브를 크게 한번 휘두르거나 리셋 버튼을 누르세요. 허브에서 안내 메시지가 나오는 경우 장치와 허브가 정상적으로 연결되었음을 의미합니다.</p>
 <ul>
-<li><p>이 제품은 장난감이 아닙니다. 이 제품을 아이의 손이 닿지 않는 곳에 두세요.</p></li>
-<li><p>이 제품은 실내 사용 용도로 설계되었습니다. 습한 환경이나 실외에서 사용하지 마세요.</p></li>
-<li><p>물기를 조심합니다. 물이나 다른 액체를 제품에 엎지르지 마세요.</p></li>
-<li><p>이 제품을 열원 부근에 놓지 마세요. 제대로 환기되지 않는 곳에 놓지 마세요.</p></li>
-<li><p>이 제품을 자체적으로 수리하려고 하지 마세요. support@aqara.kr에 연락하시기 바랍니다.</p></li>
-<li><p>이 제품은 가정 생활의 오란, 편의성 및 메시지 알림을 개선하는 경우에만 적합합니다. 사용자가 제품 사용 지침을 위반하는 경우, 제조업체는 어떠한 위험 및 재산 손실에도 책임을 지지 않습니다.</p></li>
+<li>안정적인 통신을 위해 금속 표면에서 사용하지 마세요.</li>
 </ul>
 </section>
-<section id="주의-사항" class="level3" data-number="11.0.5">
-<h3 data-number="11.0.5" class="anchored" data-anchor-id="주의-사항"><span class="header-section-number">11.0.5</span> 주의 사항</h3>
-<ul>
-<li><p>배터리를 잘못된 유형으로 교체하는 경우 폭발의 위험이 있습니다.</p></li>
-<li><p>사용한 배터리는 지침에 따라 폐기하십시오.</p></li>
-<li><p>배터리를 삼키지 마십시오. 화학적 화상의 위험이 있습니다.</p></li>
-<li><p>본 제품에는 코인/버튼 셀 배터리가 포함되어 있습니다. 코인/버튼 셀 배터리를 삼킬 경우 단 2시간 만에 심한 화상을 입을 수 있으며 사망에 이를 수 있습니다.</p></li>
-<li><p>새 배터리와 사용한 배터는 어린아이의 손이 닿지 않는 곳에 보관하시시오.</p></li>
-<li><p>배터리를 삼켰거나 배터리가 신체의 어느 부위라도삽입된 것이라고 생각되면 즉시 의사의 진료를 받으십시오.</p></li>
-<li><p>배터리를 불이나 뜨거운 오븐에 폐기하거나 기계적으로 압쇄하거나 절단하면 폭발을 일으킬 수 있습니다.</p></li>
-<li><p>배터리를 온도가 매우 높은 환경에 두면 폭발이나 인화성 액체 또는 가스의 누출을 유발할 수 있습니다.</p></li>
-<li><p>극저기압에 노출된 배터리는 폭발이나 인화성 액체 또는 가스의 누출을 유발할 수 있습니다.</p></li>
-<li><p>본 기기는 2m 이하의 높이에서만 장착 가능합니다.</p></li>
-</ul>
+<section id="모드-전환하기" class="level3" data-number="15.2.3">
+<h3 data-number="15.2.3" class="anchored" data-anchor-id="모드-전환하기"><span class="header-section-number">15.2.3</span> 모드 전환하기</h3>
+<p>아카라 홈 앱을 열어 큐브 T1 Pro를 선택한 후 상단의 “…” 를 눌러 주세요. “추가 설정”을 선택하여 “모드 전환”에서 원하는 모드를 선택해 주세요.</p>
+</section>
+<section id="배터리-교체" class="level3" data-number="15.2.4">
+<h3 data-number="15.2.4" class="anchored" data-anchor-id="배터리-교체"><span class="header-section-number">15.2.4</span> 배터리 교체</h3>
+<p>동봉된 철제 도구로 큐브 T1 Pro의 배터리 커버를 열고 새로운 CR2450 배터리로 교체해 주세요. (+가 위를 향하도록 교체되었는지 잘 확인해 주세요.)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1025640938.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+</section>
+<section id="사용-방법" class="level3" data-number="15.2.5">
+<h3 data-number="15.2.5" class="anchored" data-anchor-id="사용-방법"><span class="header-section-number">15.2.5</span> 사용 방법</h3>
+<p><strong>액션 모드</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-233743982.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1988355435.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3239225164.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p><strong>장면 모드</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-802922045.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-878615493.png" class="img-fluid figure-img" width="300"></p>
+<figcaption class="figure-caption">*HomeKit에서는 해당 기능한 지원합니다.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="제품-사양" class="level2" data-number="15.3">
+<h2 data-number="15.3" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">15.3</span> 제품 사양</h2>
+<p>모델명: CTP-R01</p>
+<p>제품 크기: 45 x 45 x 45mm</p>
+<p>제품 무게: 76g</p>
+<p>배터리 타입: CR2450</p>
+<p>무선통신 프로토콜: Zigbee 3.0</p>
+<p>작동 온도: -10’C ~ 50’C</p>
+<p>작동 습도: 95% RH 이하, 비결로 조건</p>
 
 
 </section>
@@ -610,13 +660,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./illuminance.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></span>
+      <a href="./mini_switch.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">무선 미니 스위치 T1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./fp1.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">재실 감지 센서 FP1</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./dual_relay.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">듀얼 릴레이 모듈 T2 (중성선 필요)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
