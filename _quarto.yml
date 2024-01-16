@@ -1,0 +1,51 @@
+project:
+  type: book
+
+book:
+  title: "Manual"
+  author: "CS/SE팀"
+  date: "2024. 1. 3."
+  chapters:
+    - index.qmd
+    - part: "스마트 허브"
+      chapters:
+        - hub_m2.qmd
+        - hub_e1.qmd
+    - part: "스마트 카메라 | 도어벨"
+      chapters:
+        - g2h.qmd
+        - g3.qmd
+        - doorbell.qmd
+    - part: "도어락"
+      chapters:
+        - doorlock.qmd
+    - part: "스마트 센서"
+      chapters:
+        - motion.qmd
+        - door.qmd
+        - temperature.qmd
+        - illuminance.qmd
+        - water_leakage.qmd
+    - part: "재실 감지 센서"
+      chapters:
+        - fp1.qmd
+        - fp2.qmd
+    - part: "스마트 무선 리모컨"
+      chapters: 
+        - mini_switch.qmd
+        - cube.qmd
+    - part: "스마트조명|플러그|릴레이"
+      chapters: 
+        - dual_relay.qmd
+        - led_driver.qmd
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+
