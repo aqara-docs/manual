@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Manual - 1&nbsp; 스마트 허브 M2</title>
+<title>Manual - 21&nbsp; 스마트 플러그</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./hub_e1.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./led_strip.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hub_m2.html">스마트 허브</a></li><li class="breadcrumb-item"><a href="./hub_m2.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">스마트 허브 M2</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lighting_1.html">스마트조명|플러그|릴레이</a></li><li class="breadcrumb-item"><a href="./plug.html"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">스마트 플러그</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -116,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hub_m2.html" class="sidebar-item-text sidebar-link active">
+  <a href="./hub_m2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">스마트 허브 M2</span></span></a>
   </div>
 </li>
@@ -300,6 +299,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">LED 스트립 T1</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./plug.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">스마트 플러그</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -312,15 +317,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#설치-영상" id="toc-설치-영상" class="nav-link active" data-scroll-target="#설치-영상"><span class="header-section-number">1.1</span> <strong>설치 영상</strong></a></li>
-  <li><a href="#제품소개" id="toc-제품소개" class="nav-link" data-scroll-target="#제품소개"><span class="header-section-number">1.2</span> 제품소개</a></li>
-  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">1.3</span> 빠른 설정</a>
+  <li><a href="#설치-영상" id="toc-설치-영상" class="nav-link active" data-scroll-target="#설치-영상"><span class="header-section-number">21.1</span> 설치 영상</a></li>
+  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link" data-scroll-target="#제품-소개"><span class="header-section-number">21.2</span> 제품 소개</a></li>
+  <li><a href="#주의-사항" id="toc-주의-사항" class="nav-link" data-scroll-target="#주의-사항"><span class="header-section-number">21.3</span> 주의 사항</a></li>
+  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">21.4</span> 빠른 설정</a>
   <ul class="collapse">
-  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">1.3.1</span> Aqara Home 앱 다운로드</a></li>
-  <li><a href="#허브설정" id="toc-허브설정" class="nav-link" data-scroll-target="#허브설정"><span class="header-section-number">1.3.2</span> 허브설정</a></li>
-  <li><a href="#사용" id="toc-사용" class="nav-link" data-scroll-target="#사용"><span class="header-section-number">1.3.3</span> 사용</a></li>
-  <li><a href="#스마트-허브-m2-공장-값으로-초기화" id="toc-스마트-허브-m2-공장-값으로-초기화" class="nav-link" data-scroll-target="#스마트-허브-m2-공장-값으로-초기화"><span class="header-section-number">1.3.4</span> 스마트 허브 M2 공장 값으로 초기화</a></li>
+  <li><a href="#설치-방법" id="toc-설치-방법" class="nav-link" data-scroll-target="#설치-방법"><span class="header-section-number">21.4.1</span> 설치 방법</a></li>
+  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">21.4.2</span> Aqara Home 앱 다운로드</a></li>
+  <li><a href="#장치-추가" id="toc-장치-추가" class="nav-link" data-scroll-target="#장치-추가"><span class="header-section-number">21.4.3</span> 장치 추가</a></li>
   </ul></li>
+  <li><a href="#지시등-상태-설명" id="toc-지시등-상태-설명" class="nav-link" data-scroll-target="#지시등-상태-설명"><span class="header-section-number">21.5</span> 지시등 상태 설명</a></li>
+  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">21.6</span> 제품 사양</a></li>
   </ul>
 </nav>
     </div>
@@ -329,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">스마트 허브 M2</span></h1>
+<h1 class="title"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">스마트 플러그</span></h1>
 </div>
 
 
@@ -344,26 +351,58 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="설치-영상" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="설치-영상"><span class="header-section-number">1.1</span> <strong>설치 영상</strong></h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2F-uJIlggRo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="설치-영상" class="level2" data-number="21.1">
+<h2 data-number="21.1" class="anchored" data-anchor-id="설치-영상"><span class="header-section-number">21.1</span> 설치 영상</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/-jrRYUp5hk0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="제품소개" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="제품소개"><span class="header-section-number">1.2</span> 제품소개</h2>
-<p>스마트 허브 M2는 스마트홈 컨트롤 센터로 WiFi(무선) 또는 Ethernet(유선)으로 연결되어 다양한 Zigbee장치들과 상호작용 합니다. 또한 스마트 리모컨 기능까지 탑재하여 플러그, 조명, 커튼 뿐만 아니라 에어컨, 선풍기 등 가전까지 더욱 편리하게 컨트롤하게 해 줍니다.</p>
+<section id="제품-소개" class="level2" data-number="21.2">
+<h2 data-number="21.2" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">21.2</span> 제품 소개</h2>
+<p>Aqara 스마트 플러그는 연결된 가전기기의 전원을 켜거나 끌 때 사용할 수 있습니다. 앱이나 무선 미니 스위치를 이용하여 원격제어가 가능하며, 다른 스마트 장치와 결합하여 흥미롭고 편안한 스마트홈을 만들 수 있습니다.</p>
 <ul>
-<li>본제품은 실내에서만 사용 가능합니다.</li>
+<li><p>해당 장치를 상용하기 위해서는 호환 가능한 Zigbee 3.0 허브가 필요합니다.</p></li>
+<li><p>애플 HomeKit을 사용하기 위해서는 특정 허브가 필요합니다.</p></li>
+<li><p>본 제품은 실내에서만 사용하실 수 있습니다.</p></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-3295916480.png" class="img-fluid figure-img" width="400"></p>
+<p><img src="images/clipboard-746910228.png" class="img-fluid figure-img" width="300"></p>
 </figure>
 </div>
 </section>
-<section id="빠른-설정" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">1.3</span> 빠른 설정</h2>
-<section id="aqara-home-앱-다운로드" class="level3" data-number="1.3.1">
-<h3 data-number="1.3.1" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">1.3.1</span> Aqara Home 앱 다운로드</h3>
+<section id="주의-사항" class="level2" data-number="21.3">
+<h2 data-number="21.3" class="anchored" data-anchor-id="주의-사항"><span class="header-section-number">21.3</span> 주의 사항</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>플러그가 작동하고 있을 때 플러그를 덮지 마세요.</p></li>
+<li><p>플러그를 완전히 뽑았을 때에만 전압이 없습니다.</p></li>
+<li><p>플러그를 직렬로 연결하지 마세요.</p></li>
+<li><p>본 제품은 장난감이 아닙니다. 어린이의 손이 닿지 않는 곳에 두세요,</p></li>
+<li><p>본 제품은 실내 사용 용도로 설계되었습니다. 습한 환경이나 실외에서 사용하지 마십시오.</p></li>
+<li><p>비바람에 노출된 장소, 물리 튀는 곳에 설치하지 마세요. 물 또는 액체류를 제품에 엎지를 경우 고장, 감전 및 화재의 위험이 있습니다.</p></li>
+<li><p>본 제품을 열원 부근에 놓지 마십시오. 환기가 잘 되지 않은 밀폐된 공간에서 사용하지 마십시오.</p></li>
+<li><p>본 제품을 임의로 분해, 수리, 개조하지 마십시오.</p></li>
+<li><p>본 제품은 생활의 편리 및 편의성을 개선하기 위한 용도로 적합합니다. 가정, 건물, 참고 또는 다른 장소의 방범 용도로 사용하는 것을 권장하지 않습니다. 사용자가 상기 사용 지침을 따르지 않고 해당 제품을 사용할 경우 발생하는 어떠한 위험 및 재산 손실에도 제조사는 귀책이 없음을 알려 드립니다.</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="빠른-설정" class="level2" data-number="21.4">
+<h2 data-number="21.4" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">21.4</span> 빠른 설정</h2>
+<section id="설치-방법" class="level3" data-number="21.4.1">
+<h3 data-number="21.4.1" class="anchored" data-anchor-id="설치-방법"><span class="header-section-number">21.4.1</span> 설치 방법</h3>
+<p>스마트 플러그를 꽂고, 지시등이 파란색으로 한번 깜빡이면 전원이 제대로 공급되고 있다는 것을 나타냅니다.</p>
+</section>
+<section id="aqara-home-앱-다운로드" class="level3" data-number="21.4.2">
+<h3 data-number="21.4.2" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">21.4.2</span> Aqara Home 앱 다운로드</h3>
 <p>앱 스토어에서 “Aqara Home”을 검색하거나 아래 로고를 클릭해 주세요.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -376,97 +415,57 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="허브설정" class="level3" data-number="1.3.2">
-<h3 data-number="1.3.2" class="anchored" data-anchor-id="허브설정"><span class="header-section-number">1.3.2</span> 허브설정</h3>
-<section id="허브-설치-위치-선택-허브는-집의-공유기로부터-2-6m-정도-떨어져-있어야-하며-허브와-공유기-사이-그리고-허브-주변에-금속-차폐물이-없도록-하는-것이-좋습니다." class="level4" data-number="1.3.2.1">
-<h4 data-number="1.3.2.1" class="anchored" data-anchor-id="허브-설치-위치-선택-허브는-집의-공유기로부터-2-6m-정도-떨어져-있어야-하며-허브와-공유기-사이-그리고-허브-주변에-금속-차폐물이-없도록-하는-것이-좋습니다."><span class="header-section-number">1.3.2.1</span> 허브 설치 위치 선택: 허브는 집의 공유기로부터 2-6m 정도 떨어져 있어야 하며, 허브와 공유기 사이 그리고 허브 주변에 금속 차폐물이 없도록 하는 것이 좋습니다.</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-3473537892.png" class="img-fluid figure-img" width="400"></p>
-</figure>
-</div>
-</section>
-<section id="허브에-전원-연결-5v-1a-또는-5v-2a-어댑터별매와-usb전원선을-사용하여-허브에-전원을-연결하세요." class="level4" data-number="1.3.2.2">
-<h4 data-number="1.3.2.2" class="anchored" data-anchor-id="허브에-전원-연결-5v-1a-또는-5v-2a-어댑터별매와-usb전원선을-사용하여-허브에-전원을-연결하세요."><span class="header-section-number">1.3.2.2</span> 허브에 전원 연결: 5V-1A 또는 5V-2A 어댑터(별매)와 USB전원선을 사용하여 허브에 전원을 연결하세요.</h4>
+<section id="장치-추가" class="level3" data-number="21.4.3">
+<h3 data-number="21.4.3" class="anchored" data-anchor-id="장치-추가"><span class="header-section-number">21.4.3</span> 장치 추가</h3>
+<p>(1) 아카라홈앱 메인 화면에서 오른쪽 상단의 “+”를 눌러 장치 추가 페이지로 들어갑니다.</p>
+<p>(2) 스마트 플러그를 선택하고, 지시에 따라 진행해 주세요.</p>
 <ul>
-<li>허브와 공유기 간에 유선 네트워크 통신을 사용해야 하는 경우, RJ45랜케이블을 사용하여 허브 LAN포트와 공유기 LAN포트를 연결하고 허브측 포트에 램프가 깜빡이는 것을 확인하세요.</li>
+<li>연결이 실패할 경우, 스마트 플러그를 허브에 더 가깝게 이동시켜서 연결한 다음 다시 시도해 주십시오.</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-1510633672.png" class="img-fluid figure-img" width="400"></p>
-</figure>
-</div>
-</section>
-<section id="허브-지시등이-노란색또는-빨간색이-켜져-있는-상태에서-깜빡임-표시로-바뀔-때까지-기다리세요-초기-안내-음성은-영어로-진행됩니다." class="level4" data-number="1.3.2.3">
-<h4 data-number="1.3.2.3" class="anchored" data-anchor-id="허브-지시등이-노란색또는-빨간색이-켜져-있는-상태에서-깜빡임-표시로-바뀔-때까지-기다리세요-초기-안내-음성은-영어로-진행됩니다."><span class="header-section-number">1.3.2.3</span> 허브 지시등이 노란색(또는 빨간색)이 켜져 있는 상태에서 깜빡임 표시로 바뀔 때까지 기다리세요, (초기 안내 음성은 영어로 진행됩니다.)</h4>
-</section>
-<section id="스마트폰의-wi-fi를-켜고-허브를-연결하려는-wi-fi와-동일한-2.4ghz-wi-fi에-연결해-주세요." class="level4" data-number="1.3.2.4">
-<h4 data-number="1.3.2.4" class="anchored" data-anchor-id="스마트폰의-wi-fi를-켜고-허브를-연결하려는-wi-fi와-동일한-2.4ghz-wi-fi에-연결해-주세요."><span class="header-section-number">1.3.2.4</span> 스마트폰의 Wi-Fi를 켜고 허브를 연결하려는 Wi-Fi와 동일한 2.4GHz Wi-Fi에 연결해 주세요.</h4>
-<ul>
-<li><p>듀얼밴드 공유기를 사용하는 경우 스마트폰이 5GHz Wi-Fi와 연결되지 않도록 주의 하세요.</p></li>
-<li><p>연결하는 동안 스마트폰은 가능한 허브와 가까운 위치를 유지해 주세요,</p></li>
-</ul>
-</section>
-<section id="aqara-home-app을-열고-첫-페이지-오른쪽-상단-모서리-를-클릭하고-스마트-허브-m2를-선택한-뒤-앱의-지시에-따라-허브를-등록하세요." class="level4" data-number="1.3.2.5">
-<h4 data-number="1.3.2.5" class="anchored" data-anchor-id="aqara-home-app을-열고-첫-페이지-오른쪽-상단-모서리-를-클릭하고-스마트-허브-m2를-선택한-뒤-앱의-지시에-따라-허브를-등록하세요."><span class="header-section-number">1.3.2.5</span> Aqara Home app을 열고 첫 페이지 오른쪽 상단 모서리 ’+’를 클릭하고 ’스마트 허브 M2’를 선택한 뒤 앱의 지시에 따라 허브를 등록하세요.</h4>
-<ul>
-<li>IOS 사용자인 경우 Apple HomeKit에서 제어를 원하신다면 Aqara Home app을 열기 전 허브 밑 부분 또는 설명서에 있는 HomeKit 설정 코드(보관필요)를 Apple Home app에서 스캔하거나 수동으로 입력해 허브를 Homekit에 바인딩합니다. 바인딩이 완료되면 Apple Home app에 허브가 추가된 거을 확인할 수 있습니다.</li>
-</ul>
-</section>
-<section id="만약-추가에-실패했다면-허브의-리셋-버튼을-10초-이상-누르세요.-잠시-후-노란색또는-빨간색-표시등이-깜빡이면-위의-연결-절차를-다시-진행해-주세요.-문의가-필요하실-경우-www.aqara.comkrsupport.html을-방문해-주세요." class="level4" data-number="1.3.2.6">
-<h4 data-number="1.3.2.6" class="anchored" data-anchor-id="만약-추가에-실패했다면-허브의-리셋-버튼을-10초-이상-누르세요.-잠시-후-노란색또는-빨간색-표시등이-깜빡이면-위의-연결-절차를-다시-진행해-주세요.-문의가-필요하실-경우-www.aqara.comkrsupport.html을-방문해-주세요."><span class="header-section-number">1.3.2.6</span> 만약 추가에 실패했다면 허브의 리셋 버튼을 10초 이상 누르세요. 잠시 후 노란색(또는 빨간색) 표시등이 깜빡이면 위의 연결 절차를 다시 진행해 주세요. 문의가 필요하실 경우: www.aqara.com/kr/support.html을 방문해 주세요.</h4>
-<p>디바이스 추가에 실패하면 다음 사항을 확인하세요.</p>
-<ul>
-<li><p>디바이스가 2.4 GHz 와이파이에 연결되어 있는지 확인하세요.</p></li>
-<li><p>와이파이 이름 또는 비밀번호에 지원되지 않는 특수문자가 포함되어 있어 라우터에 연결할 수 없는 경우, 일반 문자로 비밀번호를 변경 후 다시 시도하세요.</p></li>
-<li><p>WAP/WAP2 와이파이 네트워크는 지원하지 않습니다.</p></li>
-<li><p>라우터에 와이파이 무단 사용 방지 기능이 켜져 있다면 끄고 시도하세요.</p></li>
-<li><p>라우터의 AP 분리 기능으로 인해 휴대폰이 LAN내부에서 디바이스를 찾을 수 없는지를 호가인하세요.</p></li>
-</ul>
-<p>HomeKit 연동에 실패하면 다음 사항을 확인하세요.</p>
-<ul>
-<li><p>액세서리 추가 실패시 반복적인 실패로 인한 정보 찌거기가 오류를 유발합니다. iOS 장비를 재부팅하고 초기화한 다음, 다시 시도하세요. 계속 실패할 경우, 라우터 호환성을 점검하고 다른 기기로 교체하여 시도하세요.</p></li>
-<li><p>액세서리가 이미 추가되었다는 메시지가 나온다면, iOS장비를 재부팅하고 초기화한 다음, HomeKit 설치 코드를 수동으로 입력하고 다시 추가하세요.</p></li>
-</ul>
+<p><strong>연결 유효 거리 테스트</strong></p>
+<p>장치의 리셋버튼를 빠르게 3번 누릅니다. 장치가 연결 가능한 범위 안에 있는 경우 허브가 정상 연결되었음을 알릴 것입니다.</p>
 </section>
 </section>
-<section id="사용" class="level3" data-number="1.3.3">
-<h3 data-number="1.3.3" class="anchored" data-anchor-id="사용"><span class="header-section-number">1.3.3</span> 사용</h3>
-<ul>
-<li><p>안내 음성 언어 변경: 장치 탭에서 스마트 허브 M2를 선택한 뒤 우측 상단의 …을 눌러 추가 설정에서 안내 음성 언어를 변경하세요.</p></li>
-<li><p>하위 기기 추가: 허브가 성공적으로 추가되었다면 연결할 하위 기기의 퀵 가이드를 참조하여 하위 기기를 추가하세요.</p></li>
-<li><p>IR 가전 컨트롤(스마트 리모컨): app 안내에 따라 컨트롤해야 할 IR 가전의 브랜드와 모델을 app에서 선택합니다. 설정이 완료되면 app에서 선택합니다. 설정이 완료되면 app에서 가전을 제어하거나 자동실행을 설정해 보세요.</p></li>
-</ul>
+<section id="지시등-상태-설명" class="level2" data-number="21.5">
+<h2 data-number="21.5" class="anchored" data-anchor-id="지시등-상태-설명"><span class="header-section-number">21.5</span> 지시등 상태 설명</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">지시등 상태</th>
+<th style="text-align: center;">장치 상태</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">파란불이 빠르게 점멸</td>
+<td style="text-align: center;">Zigbee 네트워크 연결 중</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">파란불 점등</td>
+<td style="text-align: center;">플러그가 켜져 있으며 정상 동작하는 상태</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">빨간불 빠르게 점멸</td>
+<td style="text-align: center;">과부하 및 고온 경보</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">빨간불이 천천히 점멸</td>
+<td style="text-align: center;">Zigbee 네트워크가 연결되어 있지 않음</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="스마트-허브-m2-공장-값으로-초기화" class="level3" data-number="1.3.4">
-<h3 data-number="1.3.4" class="anchored" data-anchor-id="스마트-허브-m2-공장-값으로-초기화"><span class="header-section-number">1.3.4</span> 스마트 허브 M2 공장 값으로 초기화</h3>
-<p>허브 전면의 버튼을 10번 빠르게 누릅니다.</p>
-<section id="지시등-설명" class="level4" data-number="1.3.4.1">
-<h4 data-number="1.3.4.1" class="anchored" data-anchor-id="지시등-설명"><span class="header-section-number">1.3.4.1</span> 지시등 설명</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-3233670117.png" class="img-fluid figure-img" width="600"></p>
-</figure>
-</div>
-<ul>
-<li>장치 펌웨어 업그레이드 및 업데이트로 인해 실제 동작은 위의 설명과 약간 다를 수 있으므로 현재 앱의 지침 또는 실제 장치 상태 프롬프트를 따르십시오.</li>
-</ul>
-</section>
-<section id="기본치수" class="level4" data-number="1.3.4.2">
-<h4 data-number="1.3.4.2" class="anchored" data-anchor-id="기본치수"><span class="header-section-number">1.3.4.2</span> 기본치수</h4>
-<p><img src="images/clipboard-2615393713.png" class="img-fluid" width="500"></p>
-</section>
-<section id="사용자-공지사항" class="level4" data-number="1.3.4.3">
-<h4 data-number="1.3.4.3" class="anchored" data-anchor-id="사용자-공지사항"><span class="header-section-number">1.3.4.3</span> 사용자 공지사항</h4>
-<ul>
-<li><p>본 제품은 HomeKit을 지원하는 기기로서 최신 버전의 iOS 또는 iPadOS를 사용하는 것을 권장합니다. HomeKit을 지원하는 기기를 원격으로 제어하거나 자동화 설정하려면 HomePod 또는 Apple TV 또는 이미 홈 허브로 설치된 iPad 한 대를 설치해야 하며 소프트웨어와 운영 체제를 최신 버전으로 업데이트할 것을 권장합니다.</p></li>
-<li><p>허브와 iPhone, iPad, Apple Watch, HomePod 또는 Mac 사이의 통신은 Homekit 기술보호를 받게 됩니다.</p></li>
-<li><p>Works with Apple 로고를 사용하는 것을 이 제품이 로고에 표시된 기술과 연동하여 사용할 수 있도록 디자인 되었다는 것을 의미하며, 개발자에 의해 인증되었고, Apple의 성능 기준에 부합합니다. Apple은 해당 제품의 조작 또는 그에 적합한 안저 기준에 책임을 지지 않습니다.</p></li>
-</ul>
+<section id="제품-사양" class="level2" data-number="21.6">
+<h2 data-number="21.6" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">21.6</span> 제품 사양</h2>
+<p>모델명: SP-EUC01</p>
+<p>제품 크기: 62 x 77.5 mm</p>
+<p>무선 프로토콜: Zigbee 3.0</p>
+<p>정격 전원: 250 VAC, 50/60Hz, 10A</p>
+<p>작동 온도: 0’ C ~ 35’ C</p>
+<p>작동 습도: 0 ~ 95% RH / 비결로 조건</p>
+<p>작동 주파수: 2405 ~ 2480 MHz</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -705,14 +704,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">아카라라이프 <em>is</em> Smart Life</span>
+      <a href="./led_strip.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">LED 스트립 T1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./hub_e1.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">스마트 허브 E1</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
