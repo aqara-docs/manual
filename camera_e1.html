@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="CS/SE팀">
-<meta name="dcterms.date" content="2024-01-03">
 
-<title>Manual</title>
+<title>Manual - 5&nbsp; 스마트 카메라 E1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./hub_m2.html" rel="next">
+<link href="./doorbell.html" rel="next">
+<link href="./g3.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">아카라라이프 <em>is</em> Smart Life</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./g2h.html">스마트 카메라 | 도어벨</a></li><li class="breadcrumb-item"><a href="./camera_e1.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">스마트 카메라 E1</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -102,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">아카라라이프 <em>is</em> Smart Life</span></a>
   </div>
 </li>
@@ -152,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./camera_e1.html" class="sidebar-item-text sidebar-link">
+  <a href="./camera_e1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">스마트 카메라 E1</span></span></a>
   </div>
 </li>
@@ -359,7 +358,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#아카라라이프-is-smart-life" id="toc-아카라라이프-is-smart-life" class="nav-link active" data-scroll-target="#아카라라이프-is-smart-life">아카라라이프 <em>is</em> Smart Life</a></li>
+  <li><a href="#설치-영상" id="toc-설치-영상" class="nav-link active" data-scroll-target="#설치-영상"><span class="header-section-number">5.1</span> 설치 영상</a></li>
+  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link" data-scroll-target="#제품-소개"><span class="header-section-number">5.2</span> 제품 소개</a></li>
+  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">5.3</span> 빠른 설정</a>
+  <ul class="collapse">
+  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">5.3.1</span> Aqara Home 앱 다운로드</a></li>
+  <li><a href="#스마트-카메라-e1-설치하기" id="toc-스마트-카메라-e1-설치하기" class="nav-link" data-scroll-target="#스마트-카메라-e1-설치하기"><span class="header-section-number">5.3.2</span> 스마트 카메라 E1 설치하기</a></li>
+  <li><a href="#장치-추가" id="toc-장치-추가" class="nav-link" data-scroll-target="#장치-추가"><span class="header-section-number">5.3.3</span> 장치 추가</a></li>
+  <li><a href="#apple-homekit에-연결하기" id="toc-apple-homekit에-연결하기" class="nav-link" data-scroll-target="#apple-homekit에-연결하기"><span class="header-section-number">5.3.4</span> Apple HomeKit에 연결하기</a></li>
+  </ul></li>
+  <li><a href="#안내-사항" id="toc-안내-사항" class="nav-link" data-scroll-target="#안내-사항"><span class="header-section-number">5.4</span> 안내 사항</a></li>
+  <li><a href="#제품-설치" id="toc-제품-설치" class="nav-link" data-scroll-target="#제품-설치"><span class="header-section-number">5.5</span> 제품 설치</a></li>
+  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">5.6</span> 제품 사양</a></li>
   </ul>
 </nav>
     </div>
@@ -368,26 +378,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manual</h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">스마트 카메라 E1</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>CS/SE팀 </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">January 3, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -395,14 +393,116 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="아카라라이프-is-smart-life" class="level1 unnumbered">
-<h1 class="unnumbered">아카라라이프 <em>is</em> Smart Life</h1>
-<section id="section" class="level5">
-<h5 class="anchored" data-anchor-id="section"></h5>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1KyZAPtyPHI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
+<section id="설치-영상" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="설치-영상"><span class="header-section-number">5.1</span> 설치 영상</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/rf4_5Uxu6VY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
+<section id="제품-소개" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">5.2</span> 제품 소개</h2>
+<p>스마트 카메라 E1은 Wi-Fi 6와 블루투스 5.2를 지원하는 스마트 카메라입니다. 2K(2304 x 1296p) 해상도와 팬&amp;틸트 기능을 지원하며, 양방향 통화, 인체 추적, MicroSD 카드를 통한 영상 녹화 ,NAS 스토리지, 사생활 보호 영역 설정등의 부가 기능과 Apple HomeKit 보안 비디오를 지원합니다. 제품의 다양한 자체 기능과 다른 장치와의 연동을 통해 보안 및 스마트홈 사나리오를 구현 할 수 있습니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1167620853.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1164412758.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p><strong>버튼 사용 방법</strong></p>
+<ul>
+<li><p>리셋 버튼을 5초간 길게 눌러 와이파이 네트워크를 재설정 할 수 있습니다.</p></li>
+<li><p>리셋 버튼을 10회 길게 눌러 모든 로컬 데이터를 초기화합니다.</p></li>
+<li><p>리셋 버튼을 한 번 눌러 경고음을 종료할 수 있습니다.</p></li>
+</ul>
+<p><strong>설치 전 확인 사항</strong></p>
+<ul>
+<li><p>Wi-Fi 연결이 가능한 스마트폰 또는 태블릿이 필요합니다. (iOS/Android 지원)</p></li>
+<li><p>Wi-Fi가 안정적으로 동작하는 지 확인해 주세요.</p></li>
+</ul>
+</section>
+<section id="빠른-설정" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">5.3</span> 빠른 설정</h2>
+<section id="aqara-home-앱-다운로드" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">5.3.1</span> Aqara Home 앱 다운로드</h3>
+<p>앱 스토어에서 “Aqara Home”을 검색하거나 아래 로고를 클릭해 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://apps.apple.com/kr/app/aqara-home/id1248669703"><img src="images/clipboard-432224561.png" class="img-fluid figure-img" width="100"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://play.google.com/store/apps/details?id=com.lumiunited.aqarahome.play&amp;pli=1"><img src="images/clipboard-1940580720.png" class="img-fluid figure-img" width="100"></a></p>
+</figure>
+</div>
+</section>
+<section id="스마트-카메라-e1-설치하기" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="스마트-카메라-e1-설치하기"><span class="header-section-number">5.3.2</span> 스마트 카메라 E1 설치하기</h3>
+<p>카메라 설치 위치 선택: 카메라와 공유기 사이 안정적인 네트워크 연결을 위해 금속 차폐물과 같은 방해 물질이 없는 것이 좋습니다.</p>
+<p>카메라에 전원 연결하기: 제품 뒤면의 전원 슬롯에 Type-C 전원을 꽂아 전원 어댑터를 연결합니다. 전원 연결 후 부팅이 완료되면 지시등이 빨깐색으로 빠르게 깜빡입니다.</p>
+</section>
+<section id="장치-추가" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="장치-추가"><span class="header-section-number">5.3.3</span> 장치 추가</h3>
+<p>Aqara Home앱에서 첫 페이지 오른쪽 상단의 ’+’를 눌러 ’장치 추가(액세서리)’를 누른 뒤 ’스마트 카메라 E1’을 선택해 주세요. 앱의 지시에 따라 장치를 추가하고, 연결이 완료되면 지시등이 파란색으로 변경됩니다.</p>
+</section>
+<section id="apple-homekit에-연결하기" class="level3" data-number="5.3.4">
+<h3 data-number="5.3.4" class="anchored" data-anchor-id="apple-homekit에-연결하기"><span class="header-section-number">5.3.4</span> Apple HomeKit에 연결하기</h3>
+<p>Apple 홈앱에서 오른쪽 상단의 ‘+’를 눌러 ’액세서리 추가’ 페이지로 이동하세요. 제품 하단의 HomeKit코드를 스캔하거나 수동으로 코드를 입력하여 카메라를 HomeKit에 연결합니다.</p>
+<p>HomeKit 연결에 실패하는 경우 아래의 사항을 확인해 주세요.</p>
+<ul>
+<li><p>액세서리 추가 실패시 반복적인 실패로 인한 캐시 문제로 오류가 발생할 수 있습니다. iOS 장치를 재부팅한 후 초기화하여 다시 시도하세요.</p></li>
+<li><p>액세서리가 이미 추가 되었다는 메시지가 나오는 경우 iOS 장비를 재부팅하고 초기화한 후 HomeKit 설치 코드를 수동으로 입력해 다시 추가해 주세요.</p></li>
+<li><p>액세서리 찾기 실패 시 장비를 초기화하고 약 3분 후에 HomeKit설치 코드를 수동으로 입력하여 다시 추가해 주세요.</p></li>
+</ul>
+</section>
+</section>
+<section id="안내-사항" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="안내-사항"><span class="header-section-number">5.4</span> 안내 사항</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Works with Apple 로고의 사항은 이 제품이 로고에 표시된 기술과 연동하여 사용할 수 있도록 디자인되었다는 것을 의미하며, Apple의 성능 기준에 부합함을 인정 받았다는 것을 의미합니다. Apple은 해당 제품에 대한 사용이나 이에 적합한 안전 기준에 책임을 지지 않습니다.</p>
+<p>스마트 카메라 E1를 통해 녹화한 영상 데이터는 최대 10일까지 iCloud에 저장되며 iPhone, iPad 또는 Mac의 Apple Home 앱에서 확인할 수 있습니다. 50GB 요금제를 이용할 경우 카메라를 최대 1대, 200GB의 요금제를 사용할 경우 최대 5대, 2TB의 요금제를 이용할 경우 추가 비용없이 무제한으로 등록할 수 있습니다. 녹화한 영상 데이터는 iCloud 저장 용량에 포함되지 않습니다.</p>
+<p>스마트 카메라 E1과 iPhone, iPad, Apple Watch, HomePod, HomePod mini 또는 Mac 등의 Apple 기기와의 통신에 HomeKit 기술이 적용됩니다.</p>
+<p>장치 추가에 실패하는 경우 아래사항을 확인해 주세요.</p>
+<ul>
+<li><p>Wi-Fi 이름 또는 암호에 @,#,%,-,$ 등과 같은 특수 문자를 지원하지 않습니다. 일반 문자로 변경한 후 다시 시도해 주세요.</p></li>
+<li><p>공유기에 Wi-Fi이 무단 사용 방지 기능이 켜져 있다면 이를 끄고 시도하세요.</p></li>
+<li><p>공유기의 AP 격리 기능으로 인해 휴대폰이 LAN 내부에서 디바이스를 찾을 수 없는지 확인하세요.</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="제품-설치" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="제품-설치"><span class="header-section-number">5.5</span> 제품 설치</h2>
+<p>(1) 스마트 카메라 E1이 정상적으로 앱에 추가되었는지 확인 후 원하는 위치에 설치해 주세요.</p>
+<p>(2) 책상, 테이블, 책장 등과 같은 수평 공간에 제품을 올려두고 사용할 수 있습니다.</p>
+<p>(3) 동봉된 나사로 제품을 벽면이나 천장에 고정할 수 있습니다.</p>
+<p>(4) 패키지 안에 기본 액세서리가 있어 카메라 설치용 1/4” 나사 크기로 벽걸이를 지지하는 데 사용할 수 있습니다. 우선 베이스 액세서리의 3M 테이프를 제거한 다음 구조 구멍에 따라 액세서리를 카메라 하단에 고저아고</p>
+</section>
+<section id="제품-사양" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">5.6</span> 제품 사양</h2>
+<p>모델명: CH-C01E</p>
+<p>제품 크기: 69 x 69 x104 mm</p>
+<p>해상도: 1296p</p>
+<p>비디오 인코딩: H.264</p>
+<p>포트: USB-C</p>
+<p>무선 프로토콜: WiFi IEEE 802.11 b/g/n/ax 2.4 GHz, Bluetooth 5.2</p>
+<p>입력 전압: 5V / 2A</p>
+<p>작동 온도: -10’ C ~ 45’ C</p>
+<p>작동 습도: 0 ~ 85% RH / 비결로 조건</p>
+<p>시야각: 101’(대각선)</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -641,10 +741,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./g3.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">홈카메라 허브 G3</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./hub_m2.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">스마트 허브 M2</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./doorbell.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">도어벨</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
