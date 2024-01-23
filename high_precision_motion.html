@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Manual - 11&nbsp; 온습도 센서 T1</title>
+<title>Manual - 9&nbsp; 고감도 모션센서</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./illuminance.html" rel="next">
-<link href="./door.html" rel="prev">
+<link href="./door.html" rel="next">
+<link href="./motion.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motion.html">스마트 센서</a></li><li class="breadcrumb-item"><a href="./temperature.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motion.html">스마트 센서</a></li><li class="breadcrumb-item"><a href="./high_precision_motion.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">고감도 모션센서</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -197,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./high_precision_motion.html" class="sidebar-item-text sidebar-link">
+  <a href="./high_precision_motion.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">고감도 모션센서</span></span></a>
   </div>
 </li>
@@ -209,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./temperature.html" class="sidebar-item-text sidebar-link active">
+  <a href="./temperature.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></span></a>
   </div>
 </li>
@@ -370,14 +370,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#설치-영상" id="toc-설치-영상" class="nav-link active" data-scroll-target="#설치-영상"><span class="header-section-number">11.1</span> 설치 영상</a></li>
-  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link" data-scroll-target="#제품-소개"><span class="header-section-number">11.2</span> 제품 소개</a></li>
-  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">11.3</span> 빠른 설정</a>
+  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link active" data-scroll-target="#제품-소개"><span class="header-section-number">9.1</span> 제품 소개</a></li>
+  <li><a href="#설치-방법" id="toc-설치-방법" class="nav-link" data-scroll-target="#설치-방법"><span class="header-section-number">9.2</span> 설치 방법</a>
   <ul class="collapse">
-  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">11.3.1</span> Aqara Home 앱 다운로드</a></li>
-  <li><a href="#설치" id="toc-설치" class="nav-link" data-scroll-target="#설치"><span class="header-section-number">11.3.2</span> 설치</a></li>
-  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">11.3.3</span> 제품 사양</a></li>
+  <li><a href="#설치-준비" id="toc-설치-준비" class="nav-link" data-scroll-target="#설치-준비"><span class="header-section-number">9.2.1</span> 설치 준비</a></li>
+  <li><a href="#방법-1" id="toc-방법-1" class="nav-link" data-scroll-target="#방법-1"><span class="header-section-number">9.2.2</span> 방법 1</a></li>
+  <li><a href="#방법-2" id="toc-방법-2" class="nav-link" data-scroll-target="#방법-2"><span class="header-section-number">9.2.3</span> 방법 2</a></li>
   </ul></li>
+  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">9.3</span> 빠른 설정</a>
+  <ul class="collapse">
+  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">9.3.1</span> Aqara Home 앱 다운로드</a></li>
+  <li><a href="#장치-추가" id="toc-장치-추가" class="nav-link" data-scroll-target="#장치-추가"><span class="header-section-number">9.3.2</span> 장치 추가</a></li>
+  </ul></li>
+  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">9.4</span> 제품 사양</a></li>
   </ul>
 </nav>
     </div>
@@ -386,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">온습도 센서 T1</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">고감도 모션센서</span></h1>
 </div>
 
 
@@ -401,30 +406,81 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="설치-영상" class="level2" data-number="11.1">
-<h2 data-number="11.1" class="anchored" data-anchor-id="설치-영상"><span class="header-section-number">11.1</span> 설치 영상</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/YRPLat-HWno" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="제품-소개" class="level2" data-number="11.2">
-<h2 data-number="11.2" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">11.2</span> 제품 소개</h2>
-<p>Aqara 온도 및 습도 센서는 실시간으로 실내 온도, 습도 및 기압을 모니터링하고 기록합니다. 현재 및 과거 데이터를 앱에 표시합니다,. 또한 다른 스마트 액세서리도 작동시켜 집을 자동화합니다.</p>
+<section id="제품-소개" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">9.1</span> 제품 소개</h2>
+<p>Aqara 고감도 모션센서는 기존 모션센서보다 더 정확한 감지 기능과 더 다양한 자동화 시나리오를 구현하는 것을 가능하게 하는 장치입니다. 높은 민감도의 인체 적외선 감지 센서로, 추가 전원 공급장치 없이 간편하게 설치하여 정적인 상황에서도 다양한 자동화 시나리오 구현을 가능하게 합니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3402637149.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>고감도 프로브, 정밀 증폭 회로, 고밀도 프레넬 렌즈를 장착한 고급 버전의 모션 센서로 작은 움직도 정확하게 감지할 수 있습니다.</p>
 <ul>
-<li><p>허브 필요</p>
-<ul>
-<li><p>Aqara 허브는 이 제품을 HomeKit 기술로 작동할 수 있게 하는데 필요합니다. 세부사항에 대해서는 www.aqara.com 사이트를 참조해 주십시오.</p></li>
-<li><p>이 제품은 실내용입니다.</p></li>
-</ul></li>
+<li>5m 높이에서 최대지름 6m, 60’의 감지 범위를 커버하며, 실 감지 범위는 설치 환경에 따라 달라 질 수 있습니다.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-3822957909.png" class="img-fluid figure-img" width="300"></p>
+<p><img src="images/clipboard-3086072895.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<ul>
+<li>Aqara 고감도 모션 센서를 사용하기 위해서는 해당 제품을 지원하는 스마트 허브가 반드시 필요합니다.</li>
+</ul>
+</section>
+<section id="설치-방법" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="설치-방법"><span class="header-section-number">9.2</span> 설치 방법</h2>
+<section id="설치-준비" class="level3" data-number="9.2.1">
+<h3 data-number="9.2.1" class="anchored" data-anchor-id="설치-준비"><span class="header-section-number">9.2.1</span> 설치 준비</h3>
+<p>(1) 패키지를 개봉한 후 센서 본체에서 배터리 커버와 브라켓을 분리해 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1854671809.png" class="img-fluid figure-img" width="200"></p>
+</figure>
+</div>
+<p>(2) 허브 퀵 설치 가이드에 따라 허브를 앱에 추가해 주십시오.</p>
+<p>(3) 감지 영역</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2282484206.png" class="img-fluid figure-img" width="200"></p>
+</figure>
+</div>
+<p><strong>유효 범위 테스트:</strong> 제품을 설치하시고자 하는 위치에서 위치시킨 후 리셋 버튼을 살짝 누릅니다. 제품이 연결 가능한 범위에 있는 경우 허브가 정상 연결되었음을 음성으로 안내합니다.</p>
+</section>
+<section id="방법-1" class="level3" data-number="9.2.2">
+<h3 data-number="9.2.2" class="anchored" data-anchor-id="방법-1"><span class="header-section-number">9.2.2</span> 방법 1</h3>
+<p>(1) 제품에 포함된 나사와 칼브럭(앙카)를 사용하여 배터리 덮개를 설치하고자 하는 천장의 위치에 고정해 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1271293115.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>(2) 센서 본체를 배터리 커버에 가깝게 위치시킨 후 Aqara 로고를 배터리 커버의 화살표 패턴에 맞춘 다음, 시계 방향으로 돌려 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3596585172.png" class="img-fluid figure-img" width="300"></p>
 </figure>
 </div>
 </section>
-<section id="빠른-설정" class="level2" data-number="11.3">
-<h2 data-number="11.3" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">11.3</span> 빠른 설정</h2>
-<section id="aqara-home-앱-다운로드" class="level3" data-number="11.3.1">
-<h3 data-number="11.3.1" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">11.3.1</span> Aqara Home 앱 다운로드</h3>
+<section id="방법-2" class="level3" data-number="9.2.3">
+<h3 data-number="9.2.3" class="anchored" data-anchor-id="방법-2"><span class="header-section-number">9.2.3</span> 방법 2</h3>
+<p>(1) 동전이나 기타 도구를 사용하여 배터리 커버와 센서 본체를 연결해 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2238519952.png" class="img-fluid figure-img" width="200"></p>
+</figure>
+</div>
+<p>(2) 브라켓을 이용하여 센서를 천장의 원형 구명에 고정시킵니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1078741172.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="빠른-설정" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">9.3</span> 빠른 설정</h2>
+<section id="aqara-home-앱-다운로드" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">9.3.1</span> Aqara Home 앱 다운로드</h3>
 <p>앱 스토어에서 “Aqara Home”을 검색하거나 아래 로고를 클릭해 주세요.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -436,53 +492,61 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://play.google.com/store/apps/details?id=com.lumiunited.aqarahome.play&amp;pli=1"><img src="images/clipboard-1940580720.png" class="img-fluid figure-img" alt="구글 스토어" width="100"></a></p>
 </figure>
 </div>
+</section>
+<section id="장치-추가" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="장치-추가"><span class="header-section-number">9.3.2</span> 장치 추가</h3>
 <ul>
 <li><p>허브 퀵 설치 가이드에 따라 허브를 앱에 추가해 주십시오.</p></li>
 <li><p>사용 전에 배터리 절연 탭을 제거해 주십시오.</p></li>
-<li><p>앱을 열고 “Home”(홈)을 선택한 다음에 오른쪽 상단의 “+” 을 누르면 “Add Device(Accessory)”(장치추가(액세서리)) 페이지로 들어갑니다. “Temperaure and Humidity Sensor”(온도 및 습도 센서)를 선택하고, 지시에 따라 추가합니다.</p>
+<li><p>앱을 열고 “Home”(홈)을 선택한 다음에 오른쪽 상단의 “+” 을 누르고 “장치추가” 페이지로 들어갑니다. “고감도 모션 센서”를 선택하고, 지시에 따라 추가합니다.</p>
 <ul>
 <li>연결이 되지 않는 경우, 액세서시를 허브에 더 가까이 이동시켜서 다시 시도해 주세요.</li>
 </ul></li>
 </ul>
 </section>
-<section id="설치" class="level3" data-number="11.3.2">
-<h3 data-number="11.3.2" class="anchored" data-anchor-id="설치"><span class="header-section-number">11.3.2</span> 설치</h3>
-<p>유효 범위 테스트: 원하는 위치에서 액세서리의 리셋 버튼을 한 차례 누릅니다. 허브에 음성 프롬프트가 나타나는 경우, 액세서리가 허브와 유효하게 통신할 수 있다는 것을 나타냅니다.</p>
-<ul>
-<li>신호 강도를 극대화 하려면 금속 표면에 놓지 마십시오.</li>
-</ul>
-<p>옵션 1: 원하는 위치에 직접 놓습니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-3690122086.png" class="img-fluid figure-img" width="300"></p>
-</figure>
-</div>
-<p>옵션 2: 보호 필름을 제거하고 원하는 위치에 붙입니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-657193300.png" class="img-fluid figure-img" width="300"></p>
-</figure>
-</div>
-<ul>
-<li>표면에 깨끗하고 건조한 상태로 유지합니다.</li>
-</ul>
-<p>액세서리 식별: 앱을 열고 “Device List (Accessories)”(장치 목록(액세서리)) 페이지로 들어갑니다. 액세서리에서 리셋 버트를 한 차례 누릅니다. 허브에 음성 프롬프트가 나타나고 앱 블링크에 관련 액세서리 아이콘이 나타나는 경우, 해당 액세서리가 식별되었다는 것을 나타냅니다.</p>
-<ul>
-<li>Aqara 홈 앱과 Aqara 앱만이 이 기능을 지원합니다.</li>
-</ul>
 </section>
-<section id="제품-사양" class="level3" data-number="11.3.3">
-<h3 data-number="11.3.3" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">11.3.3</span> 제품 사양</h3>
-<p>모델: WSDCGQ11LM</p>
-<p>치수: 36 x 36 x 9mm (1.42 x 1.42 x 0.35인치)</p>
-<p>무선 프로토콜: Zigbee</p>
-<p>배터리: CR2032</p>
-<p>온도 범위 및 정밀도: -20’ ~ +50’C, (+-) 0.3’C</p>
-<p>습도 범위 및 정밀도: 0 ~ 100% RH,(+-) 3%</p>
-<p>기압 범위 및 정밀도: 30kPa ~ 110kPa, (+-)0.12kPa</p>
+<section id="제품-사양" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">9.4</span> 제품 사양</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">모델명</th>
+<th style="text-align: center;">RTCGQ13LM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">제품 크기</td>
+<td style="text-align: center;">74 x 74 x 43.3 mm</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">브라켓 사이즈</td>
+<td style="text-align: center;">113 x 113 x 41 mm</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">무선 프로토콜</td>
+<td style="text-align: center;">Zigbee 3.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">배터리 타입</td>
+<td style="text-align: center;">CR2450</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">작동 온도</td>
+<td style="text-align: center;">-10’ C ~ + 50’ C</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">작동 습도</td>
+<td style="text-align: center;">0 ~ 95% RH / 비결로 조건</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">감지 거리</td>
+<td style="text-align: center;">5 m</td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -721,13 +785,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./door.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span>
+      <a href="./motion.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">모션 센서 T1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./illuminance.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">조도 센서 T1</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./door.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
