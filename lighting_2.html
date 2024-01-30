@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./dual_relay.html" rel="next">
+<link href="./single_switch_module.html" rel="next">
 <link href="./lighting_1.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -308,26 +308,32 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./single_switch_module.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">싱글 스위치 모듈 T1 (중성선 필요)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./dual_relay.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">듀얼릴레이 모듈 T2 (중성선필요)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">듀얼릴레이 모듈 T2 (중성선필요)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./led_driver.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">LED 스트립 드라이버</span></span></a>
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">LED 스트립 드라이버</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./led_strip.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">LED 스트립 T1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">LED 스트립 T1</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./plug.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">스마트 플러그</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">스마트 플러그</span></span></a>
   </div>
 </li>
       </ul>
@@ -344,13 +350,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./curtain.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">스마트 커튼</span></span></a>
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">스마트 커튼</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./blind.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">스마트 블라인드 컨트롤러</span></span></a>
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">스마트 블라인드 컨트롤러</span></span></a>
   </div>
 </li>
       </ul>
@@ -367,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./feeder.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">스마트 자동 급식기 C1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">스마트 자동 급식기 C1</span></span></a>
   </div>
 </li>
       </ul>
@@ -523,7 +529,7 @@ Caution
 <section id="장치-추가" class="level3" data-number="21.6.2">
 <h3 data-number="21.6.2" class="anchored" data-anchor-id="장치-추가"><span class="header-section-number">21.6.2</span> 장치 추가</h3>
 <p>(1) 빠른 설치 가이드에 따라 앱에 허브를 추가하세요.</p>
-<p>(2) Aqara Home 앱을 실행하세요. 앱 하단의 “기기/장치” 클릭하세요. 우측 상단의 “+” 버튼을 누르면 기기 추가 페이지로 이동합니다. “스마트 조명 스위치(중성선 불필요 2구)”를 선택하고 화면에 보이는 대로 따라 하십시오.</p>
+<p>(2) Aqara Home 앱을 실행하세요. 앱 하단의 “장치” 클릭하세요. 우측 상단의 “+” 버튼를 누르고 장치 추가를 선택하면 장치 추가 페이지로 이동합니다. “스위치 &amp; 플러그” 탭에서 “스마트 조명 스위치 (2구, 중성선 불필요)”를 선택하고 화면에 보이는 대로 따라 하십시오.</p>
 <ul>
 <li>만일 연결에 실패하였다면, 허브를 스윛에 가깝게 옮긴 후 전원을 투입하고 다시 시도해 보세요.</li>
 </ul>
@@ -814,8 +820,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./dual_relay.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">듀얼릴레이 모듈 T2 (중성선필요)</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./single_switch_module.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">싱글 스위치 모듈 T1 (중성선 필요)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
