@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Manual - 16&nbsp; 재실 감지 센서 FP1</title>
+<title>Manual - 10&nbsp; 모션센서 P1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./fp2.html" rel="next">
-<link href="./water_leakage.html" rel="prev">
+<link href="./door.html" rel="next">
+<link href="./high_precision_motion.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fp1.html">재실 감지 센서</a></li><li class="breadcrumb-item"><a href="./fp1.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">재실 감지 센서 FP1</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motion.html">스마트 센서</a></li><li class="breadcrumb-item"><a href="./motion_p1.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">모션센서 P1</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motion_p1.html" class="sidebar-item-text sidebar-link">
+  <a href="./motion_p1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">모션센서 P1</span></span></a>
   </div>
 </li>
@@ -250,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fp1.html" class="sidebar-item-text sidebar-link active">
+  <a href="./fp1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">재실 감지 센서 FP1</span></span></a>
   </div>
 </li>
@@ -441,22 +441,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link active" data-scroll-target="#제품-소개"><span class="header-section-number">16.1</span> 제품 소개</a></li>
-  <li><a href="#설치" id="toc-설치" class="nav-link" data-scroll-target="#설치"><span class="header-section-number">16.2</span> 설치</a>
+  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link active" data-scroll-target="#제품-소개"><span class="header-section-number">10.1</span> 제품 소개</a></li>
+  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">10.2</span> 빠른 설정</a>
   <ul class="collapse">
-  <li><a href="#센서-감지-범위" id="toc-센서-감지-범위" class="nav-link" data-scroll-target="#센서-감지-범위"><span class="header-section-number">16.2.1</span> 센서 감지 범위</a></li>
-  <li><a href="#추천하는-설치-위치" id="toc-추천하는-설치-위치" class="nav-link" data-scroll-target="#추천하는-설치-위치"><span class="header-section-number">16.2.2</span> 추천하는 설치 위치</a></li>
-  <li><a href="#설치-시-주의-사항" id="toc-설치-시-주의-사항" class="nav-link" data-scroll-target="#설치-시-주의-사항"><span class="header-section-number">16.2.3</span> 설치 시 주의 사항</a></li>
-  <li><a href="#설치-방법" id="toc-설치-방법" class="nav-link" data-scroll-target="#설치-방법"><span class="header-section-number">16.2.4</span> 설치 방법</a></li>
-  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">16.2.5</span> Aqara Home 앱 다운로드</a></li>
-  <li><a href="#aqara-home-앱에-장치-추가하기" id="toc-aqara-home-앱에-장치-추가하기" class="nav-link" data-scroll-target="#aqara-home-앱에-장치-추가하기"><span class="header-section-number">16.2.6</span> Aqara Home 앱에 장치 추가하기</a></li>
-  <li><a href="#기능-설정하기" id="toc-기능-설정하기" class="nav-link" data-scroll-target="#기능-설정하기"><span class="header-section-number">16.2.7</span> 기능 설정하기</a></li>
-  <li><a href="#자동화-설정-조건" id="toc-자동화-설정-조건" class="nav-link" data-scroll-target="#자동화-설정-조건"><span class="header-section-number">16.2.8</span> 자동화 설정 조건</a></li>
-  <li><a href="#해당-장치는-센서-범위내의-전체-감지와-설정한-일부-영역에-대한-감지가-가능합니다." id="toc-해당-장치는-센서-범위내의-전체-감지와-설정한-일부-영역에-대한-감지가-가능합니다." class="nav-link" data-scroll-target="#해당-장치는-센서-범위내의-전체-감지와-설정한-일부-영역에-대한-감지가-가능합니다."><span class="header-section-number">16.2.9</span> 해당 장치는 센서 범위내의 전체 감지와 설정한 일부 영역에 대한 감지가 가능합니다.</a></li>
-  <li><a href="#추천하는-설치-위치-1" id="toc-추천하는-설치-위치-1" class="nav-link" data-scroll-target="#추천하는-설치-위치-1"><span class="header-section-number">16.2.10</span> 추천하는 설치 위치</a></li>
+  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">10.2.1</span> Aqara Home 앱 다운로드</a></li>
+  <li><a href="#장치-추가" id="toc-장치-추가" class="nav-link" data-scroll-target="#장치-추가"><span class="header-section-number">10.2.2</span> 장치 추가</a></li>
   </ul></li>
-  <li><a href="#지시등-상태-설정" id="toc-지시등-상태-설정" class="nav-link" data-scroll-target="#지시등-상태-설정"><span class="header-section-number">16.3</span> 지시등 상태 설정</a></li>
-  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">16.4</span> 제품 사양</a></li>
+  <li><a href="#주의-사항" id="toc-주의-사항" class="nav-link" data-scroll-target="#주의-사항"><span class="header-section-number">10.3</span> 주의 사항</a></li>
+  <li><a href="#설치-옵션" id="toc-설치-옵션" class="nav-link" data-scroll-target="#설치-옵션"><span class="header-section-number">10.4</span> 설치 옵션</a>
+  <ul class="collapse">
+  <li><a href="#설치-1" id="toc-설치-1" class="nav-link" data-scroll-target="#설치-1"><span class="header-section-number">10.4.1</span> 설치 1</a></li>
+  <li><a href="#설치-2" id="toc-설치-2" class="nav-link" data-scroll-target="#설치-2"><span class="header-section-number">10.4.2</span> 설치 2</a></li>
+  </ul></li>
+  <li><a href="#배터리-교체-방법" id="toc-배터리-교체-방법" class="nav-link" data-scroll-target="#배터리-교체-방법"><span class="header-section-number">10.5</span> 배터리 교체 방법</a></li>
+  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">10.6</span> 제품 사양</a></li>
+  <li><a href="#경고" id="toc-경고" class="nav-link" data-scroll-target="#경고"><span class="header-section-number">10.7</span> 경고</a></li>
   </ul>
 </nav>
     </div>
@@ -465,7 +464,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">재실 감지 센서 FP1</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">모션센서 P1</span></h1>
 </div>
 
 
@@ -480,80 +479,23 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="제품-소개" class="level2" data-number="16.1">
-<h2 data-number="16.1" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">16.1</span> 제품 소개</h2>
-<p>재실 감지 센서 FP1은 사람 및 움직이는 사물의 조재 여부를 감지하는 센서로 재실 여부, 다가옴과 멀어짐, 좌우 움직임 방향, 실내에서의 위치 등을 감지 할 수 있습니다.</p>
+<section id="제품-소개" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">10.1</span> 제품 소개</h2>
+<p>모션 센서 P1은 인체의 움직임과 주변의 조도환경을 감지하는 센서가 내장되어 있습니다. 감지 영역 내에서 움직임을 감지하거나 조도의 변화가 있는 경우, 해당 상황을 알림으로 보내거나 해당 조건을 자동화 트리거로 사용할 수 있습니다.</p>
 <ul>
-<li>제품을 사용하기 위해서는 해당 제품을 지원하는 허브가 필요합니다. 일부 기능을 사용하기 위해서는 특정한 허브가 필요할 수 있습니다.</li>
+<li><p>해당 장치를 사용하기 위해서는 Zigbee 3.0을 지원하는 아카라 허브가 필요합니다.</p></li>
+<li><p>애플 홈킷에서 사용하기 위해서는 특정한 허브가 필요합니다.</p></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-909800801.png" class="img-fluid figure-img" width="400"></p>
-</figure>
-</div>
-<p>군사 및 우주 개발 분야에서 주로 사용되는 mmWave레이더 기술 적용으로 장시간 움직임 없는 사람의 재실 여부까지 정확히 감지합니다.</p>
-</section>
-<section id="설치" class="level2" data-number="16.2">
-<h2 data-number="16.2" class="anchored" data-anchor-id="설치"><span class="header-section-number">16.2</span> 설치</h2>
-<section id="센서-감지-범위" class="level3" data-number="16.2.1">
-<h3 data-number="16.2.1" class="anchored" data-anchor-id="센서-감지-범위"><span class="header-section-number">16.2.1</span> 센서 감지 범위</h3>
-<p>수평각: 120’ | 수직각: 40’ | 최대 감지 거리: 5m(방사형 기준)</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-1394831449.png" class="img-fluid figure-img" width="300"></p>
+<p><img src="images/clipboard-1185384434.png" class="img-fluid figure-img" width="300"></p>
 </figure>
 </div>
 </section>
-<section id="추천하는-설치-위치" class="level3" data-number="16.2.2">
-<h3 data-number="16.2.2" class="anchored" data-anchor-id="추천하는-설치-위치"><span class="header-section-number">16.2.2</span> 추천하는 설치 위치</h3>
-<p>재실 센서 FP1을 설치할 위치의 높이와 각도를 조절하여 감지 범위를 조절할 수 있습니다. 넓은 범위를 감지하고자 하시는 경우에는 2-2.7m 사이의 높이에 설치하는 것을 추천하며, 활동 영역을 감지하기 위해 레이더 센서가 약간 아래 방향을 향하도록 설치해 주시는 것이 좋습니다.</p>
-<p>(1) 천장에 설치하는 경우</p>
-<p>강점: 정적인 사람이나 물체도 감지 가능(예: 수면 중에도 재실 여부 감지 기능)</p>
-<p>약점: 감지 범위가 상대적으로 좁음</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-589212992.png" class="img-fluid figure-img" width="300"></p>
-</figure>
-</div>
-<p>(2) 벽면에 설치</p>
-<p>강점: 넓은 감지 범위, 움직이거나 앉아 있는 사람/물체 감지에 효과적</p>
-<p>약점: 소파, 침대 등에 누워 있는 사람이나 물체를 감지하기 위해서는 정확한 인식을 위해 설치 위치와 각도를 조절해야 함. 수면중인 사람의 재실 여부를 감지하기 위해서는 침대 위의 천장에 설치하는 것을 추천합니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-2856188964.png" class="img-fluid figure-img" width="300"></p>
-</figure>
-</div>
-</section>
-<section id="설치-시-주의-사항" class="level3" data-number="16.2.3">
-<h3 data-number="16.2.3" class="anchored" data-anchor-id="설치-시-주의-사항"><span class="header-section-number">16.2.3</span> 설치 시 주의 사항</h3>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Caution
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>재실 센서 FP1은 공간 내의 움직이는 물체에 민감하게 반응합니다. 커튼, 선풍기,에어컨, 식물, 흐르는 물 등 움직임이 있는 물체들을 피해서 설치해야 합니다. 움직이는 물체를 피할 수 없는 경우에는 Aqara Home앱 내에서 간섭한 설정이 필요합니다.</p>
-</div>
-</div>
-</section>
-<section id="설치-방법" class="level3" data-number="16.2.4">
-<h3 data-number="16.2.4" class="anchored" data-anchor-id="설치-방법"><span class="header-section-number">16.2.4</span> 설치 방법</h3>
-<p>감지가 필요한 영역에 따라 천장이나 벽면 등 설치할 위치를 선택해 주세요. 설치 위치를 결정한 후 USB-A 전원선을 어댑터 등 전원 장치에 연결해 주세요.</p>
-<ul>
-<li>재실 센서가 사람을 정확히 인식하는지 확인하기 전에는 장치의 위치를 완전히 고정하지 않는 것을 추천합니다. 테이프 등을 이용하여 임시로 장치를 고정한 후 원하는 범위에서의 재실 여부가 정확하게 인식되는지를 먼저 확인해 주세요.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-2043992380.png" class="img-fluid figure-img" width="300"></p>
-</figure>
-</div>
-</section>
-<section id="aqara-home-앱-다운로드" class="level3" data-number="16.2.5">
-<h3 data-number="16.2.5" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">16.2.5</span> Aqara Home 앱 다운로드</h3>
+<section id="빠른-설정" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">10.2</span> 빠른 설정</h2>
+<section id="aqara-home-앱-다운로드" class="level3" data-number="10.2.1">
+<h3 data-number="10.2.1" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">10.2.1</span> Aqara Home 앱 다운로드</h3>
 <p>앱 스토어에서 “Aqara Home”을 검색하거나 아래 로고를 클릭해 주세요.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -566,112 +508,135 @@ Caution
 </figure>
 </div>
 </section>
-<section id="aqara-home-앱에-장치-추가하기" class="level3" data-number="16.2.6">
-<h3 data-number="16.2.6" class="anchored" data-anchor-id="aqara-home-앱에-장치-추가하기"><span class="header-section-number">16.2.6</span> Aqara Home 앱에 장치 추가하기</h3>
-<p>(1) 스마트 허브 매뉴얼을 참고하여 스마트 허브를 Aqara Home앱에 추가해 주세요.</p>
-<p>(2) Aqara Home앱에서 “Home” 화면 우측 상단의 “+”를 선택하여 “장치 추가” 페이지에 접속해 주세요. “재실 센서 F1”을 선택한 후 앱의 안내 사항에 따라 장치를 추가해 주세요.</p>
-</section>
-<section id="기능-설정하기" class="level3" data-number="16.2.7">
-<h3 data-number="16.2.7" class="anchored" data-anchor-id="기능-설정하기"><span class="header-section-number">16.2.7</span> 기능 설정하기</h3>
-<p>장치를 앱에 성공적으로 설치한 후 해당 장치를 선택하면 그림과 같이 좌표를 확인할 수 있습니다. 좌표 한 칸은 가로 1m x 세로 1m의 감지 영역을 의하며, 총 28칸의 그리드로 구성되어 있습니다. 감지 영역에 직접 들어가고 나오거나 서 있는 위치를 이동하여 재실 감지 및 위치 확인 기능이 정상적으로 작동하는지 확인해 주세요. 확인 후 장치가 정상적으로 재실 여부를 감지한다면 해당 위치에 스티커를 이용하여 자석 스탠드를 고정해 주세요. 정상적으로 감지하지 못하는 경우에는 센서의 위치, 각도, 간섭원 등의 설정을 변경하여 정상적으로 감지할 때까지 테스트를 진행해 주세요.</p>
-<p>(1) 구역 감지: 침대,TV 등 공간 내 설치된 사물의 배치에 따라 감지 구역을 설정하고, 감지 상황을 시각적으로 구현할 수 있습니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-2524797052.png" class="img-fluid figure-img" width="150"></p>
-</figure>
-</div>
-<p>(2) 두가지 감지 모드: 전체 감지, 좌우 감지 두가지 옵션 중 원하는 감지모드로 인체 상태를 감지 할 수 있습니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-771198474.png" class="img-fluid figure-img" width="150"></p>
-</figure>
-</div>
-<p>(3) 간섭원 설정 기능: 감지구역에서 신호에 영향을 주는 간섭원을 미리 설정하여 보다 정확한 데이터로 사용자 맞춤형 시나리오를 구현할 수 있습니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-1380771905.png" class="img-fluid figure-img" width="150"></p>
-</figure>
-</div>
-</section>
-<section id="자동화-설정-조건" class="level3" data-number="16.2.8">
-<h3 data-number="16.2.8" class="anchored" data-anchor-id="자동화-설정-조건"><span class="header-section-number">16.2.8</span> 자동화 설정 조건</h3>
-<p>재실 센서 FP1은 다양한 자동화 조건을 지원합니다. 아래의 내용을 참고하여 자동화를 설정해 주세요.</p>
-<p>(1) 사람이 있을 때(재실): 6초 이상 연속적으로 사람이나 물체가 감지되는 경우 사람이 존재하는 것으로 판단합니다.</p>
-<p>(2)일정 시간 이상 사람이 있을 때 일정한 시간 이상 재실 상태가 유지되는 경우를 트리거로 사용할 수 있습니다. 예를 들어 사람이 화장실에서 미끄러 넘어져 방치되는 것 등을 막기 위해 너무 긴 시간 재실 상태가 유지될 경우 경고 알람을 주는 용도로 활용할 수 있습니다.</p>
-<p>(3) 사람 없음: 30초 이상 사람이나 물체의 움직임이 감지되지 않는 경우 부재로 간주하며, 주변 환경 조건에 따라 부재로 인식하는 시간의 결정에 다소 차이가 발생할 수 있습니다. 만약 부재 상태가 정확하게 감지도지 않는 경우 감지 범위 내에 간섭원이 없는지 확인해 주세요.</p>
-<p>(4) 일정 시간 이상 사람이 없을 때: 해당 조건은 일정 시간 동안 감지 영역내에 사람이 없는 경우 자동화를 구성하는 데 사용할 수 있습니다.</p>
-<p>(5) 사람이 감지 범위에 들어 올때: 해당 조건은 즉각적으로 판단합니다. 좌우 영역 감지를 활성화 시키는 경우 “왼쪽으로 들어 올 때”, “오른쪽으로 들어 올 때” 두가지 상태를 감지합니다.</p>
-<p>(6) 사람이 감지 범위에서 떠날 때: 사람 없음을 인식하는 판단 기준과 마찬가지로, 30초 이상 재실 여부가 감지되지 않는 경우 사람이 감지 범위에서 떠나는 것으로 인식합니다. 좌우 영역 감지를 활성화 시키는 경우, “왼쪽으로 떠남” 과 “오른쪽으로 떠남” 두 가지 상태를 감지합니다.</p>
+<section id="장치-추가" class="level3" data-number="10.2.2">
+<h3 data-number="10.2.2" class="anchored" data-anchor-id="장치-추가"><span class="header-section-number">10.2.2</span> 장치 추가</h3>
 <ul>
-<li>참고: 영역 감지의 경우, 사람이 떠나는 것을 즉시 판단합니다.</li>
+<li><p>아카라 허브의 사용자 매뉴얼에 따라 허브를 앱에 추가해 주십시오.</p></li>
+<li><p>사용 전에 배터리 절연 탭을 제거해 주십시오.</p></li>
+<li><p>아카라홈 앱을 열고 오른쪽 상단 “+”를 누른 후, “장치 추가”를 누릅니다. 그리고, “센서” 탭을 누른 후, “모션 센서 P1” 선택하고, 지시에 따라 추가 합니다.페이지로 들어갑니다.</p></li>
+<li><p>연결이 되지 않는 경우, 모션 센서 P1를 허브에 더 가까이 이동시켜서 다시 시도해 주십시오.</p></li>
 </ul>
-<p>(7) 사람이 다가오거나 멀어질 때: 센서를 기준으로 다가오는지 멀어지는지를 판단하며 1m, 2m,3m 단위로 설정할 수 있습니다. 해당 조건을 통해 다가오거나 멀어지는 거리에 따라 조명의 밝기를 조절하는 자동화를 구현할 수 있습니다.</p>
-<p>(8) 영역 감지: 특정한 영역을 설정한 후, 해당 영역을 기반으로 자동화 옵션이 생성됩니다. 생성된 영역을 기준으로 자동화 옵션이 생성됩니다. 생성된 영역을 기준으로 사람이 있을 때와 없을 때, 사람이 들어오거나 나갈 때 4가지 조건의 자동화를 설정 할 수 있습니다.</p>
 </section>
-<section id="해당-장치는-센서-범위내의-전체-감지와-설정한-일부-영역에-대한-감지가-가능합니다." class="level3" data-number="16.2.9">
-<h3 data-number="16.2.9" class="anchored" data-anchor-id="해당-장치는-센서-범위내의-전체-감지와-설정한-일부-영역에-대한-감지가-가능합니다."><span class="header-section-number">16.2.9</span> 해당 장치는 센서 범위내의 전체 감지와 설정한 일부 영역에 대한 감지가 가능합니다.</h3>
-<p>Aqara Home 메인 화면에서 장치를 설정한 후 “영역 설정”을 누르면, 감지 영역과 기타 구역을 설정할 수 있습니다. 사용 환경에 따라 화장실, 소파, 식사 공간 등 최대10개의 영역을 설정할 수 있습니다. 설정한 영역은 Aqara Home 앱에서 해당 장치를 선택하면 확인할 수 있으며 추후 편집이나 삭제가 가능하고 자동화 조건으로 사용할 수 있습니다. 또한 감지를 원하지 않는 지역에 출입구, 간섭원, 가장자리 중 하나를 설정할 수 있습니다. 간섭원을 설정하는 경우 커튼, 선풍기, 식물 등으로 움직이는 물체로 인해 발생하는 잘못된 인식을 줄일 수 있습니다. 또한 출입구와 가장자리를 미리 설정하는 경우 전파 간섭으로 인한 다중 경로 효과를 줄여 보다 정확한 감지가 가능합니다.</p>
 </section>
-<section id="추천하는-설치-위치-1" class="level3" data-number="16.2.10">
-<h3 data-number="16.2.10" class="anchored" data-anchor-id="추천하는-설치-위치-1"><span class="header-section-number">16.2.10</span> 추천하는 설치 위치</h3>
-<p>추가설정에서 공간 꾸미기, 감지 모드, 접근 감지 거리 등을 설정할 수 있습니다. ‘공간 꾸미기’에서 최대 10개의 아이콘을 추가하여 해당 영역을 보다 직관적으로 확인 할 수 있습니다. 침대, 식탁, 소파 등의 기본 아이콘을 선택한 후 사이즈를 변경하거나 회전하거나 삭제할 수 있습니다. ’감지 모드’에서는 전체 영역을 감지하는 ’전체 감지’ 또는 방향성을 함께 감지하는 ’좌우 감지’를 선택할 수 있습니다. 기본 설정은 전체 감지로 설정되어 있으며해당 경우에는 좌측이나 우측의 이도을 감지하지 못합니다. 좌우 감지가 활성화된 경우에는 해당 조건을 기반으로 자동화를 설정할 수 있습니다(사람이 왼쪽에서 들어 올때, 사람이 오른쪽에서 들어올 때,사람이 왼쪽으로 나갈때, 사람이 왼쪽으로 나갈 때 등). ’민감도’의 경우 사용 환경에 따라 강/중/약 3 단계로 설정할 수 있습니다. ’사람 없음 상태로 초기화’의 경우 간섭원에 의해 사람이 있는 것으로 잘못 인식한 경우 눌러서 상태를 리셋할 수 있습니다. ’접근 감지 거리’의 경우 1m, 2m, 3m로 설정할 수 있습니다.</p>
+<section id="주의-사항" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="주의-사항"><span class="header-section-number">10.3</span> 주의 사항</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>모션 센서가 허브와 정상적으로 통신하는 지 확인 한 후에 제품을 고정하여 사용해 주세요.</p></li>
+<li><p>스티커가 떨어질 수 있으므로 타일, 유리, 대리석 등 미끄럽거나 습한 표면에 설치하지 마세요.</p></li>
+<li><p>스트커가 떨어 질 수 있으므로 조명이나 열원 근처에 설치하지 마세요.</p></li>
+<li><p>스티커가 떨어질 수 있으므로 거칠거나 울퉁불퉁한 물체 표면에 설치하지 마세요.</p></li>
+<li><p>적외선 간섭으로 인해 잘못된 트리거가 발생할 수 있으므로 전자 제품 및 열원 근처에 설치하지 마세요.</p>
+<p><strong>(유효 감지 영역: 측면 View)</strong></p></li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/clipboard-771198474.png" class="img-fluid figure-img" width="150"></p>
+<p><img src="images/clipboard-423679066.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>(<strong>유효 감지 영역: 평면 View)</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-722452085.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<ul>
+<li>권장 설치 높이는 1.2 ~ 2m입니다. 1.2m 미만으로 설치 시 감지 영역이 줄어 들 수 있으며, 2m 이상의 높이에 설치할 경우 센서 하단부에 사각지대가 형성되어 일부 영역을 감지하지 못할 수 있습니다.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="설치-옵션" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="설치-옵션"><span class="header-section-number">10.4</span> 설치 옵션</h2>
+<section id="설치-1" class="level3" data-number="10.4.1">
+<h3 data-number="10.4.1" class="anchored" data-anchor-id="설치-1"><span class="header-section-number">10.4.1</span> 설치 1</h3>
+<p>(1) 설치를 희망하는 위치를 선택한 후 표면을 깨끗하게 청소해 주세요.</p>
+<p>(2) 센서로 감지할 방향을 설정한 후, 배터리 커버 하단에 스티커를 붙인 다음 30초 이상 세게 눌러 센서를 부착해 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1296133038.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+</section>
+<section id="설치-2" class="level3" data-number="10.4.2">
+<h3 data-number="10.4.2" class="anchored" data-anchor-id="설치-2"><span class="header-section-number">10.4.2</span> 설치 2</h3>
+<p>(1) 설치를 희망하는 위치를 선택한 후 표면을 깨끗하게 청소해 주세요.</p>
+<p>(2) 동봉된 스트커를 사용하여 모센 센서와 거치대를 붙인 후, 약 30초간 세게 눌러 단단하게 고정해 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2774198888.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>(3) 모션 센서가 부착된 거치대에 스티커를 붙힌 후, 평평한 표면에서 약 30초간 세게 눌러 단단하게 고정해 주세요. 벽면에 설치하는 경우 감지 방향을 조정할 수 있도록, 받침대 방향이 위로 향하는 것을 권장합니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2049919535.png" class="img-fluid figure-img" width="300"></p>
 </figure>
 </div>
 </section>
 </section>
-<section id="지시등-상태-설정" class="level2" data-number="16.3">
-<h2 data-number="16.3" class="anchored" data-anchor-id="지시등-상태-설정"><span class="header-section-number">16.3</span> 지시등 상태 설정</h2>
-<table class="table">
-<colgroup>
-<col style="width: 40%">
-<col style="width: 44%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">지시등 상태</th>
-<th style="text-align: left;">상태 설명</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">파란색으로 세번 깜빡임</td>
-<td style="text-align: left;">Zigbee 네트워크 검색 시작</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2초 마다 파란색으로 깜빡임</td>
-<td style="text-align: left;">Zigbee 네트워크 검색 중</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">파란색으로 두 번 깜빡임</td>
-<td style="text-align: left;"><ol type="1">
-<li>전원 공급 성공</li>
-<li>Zigbee 네트워크 연결 성공</li>
-<li>Zigbee 장치 검색 성공</li>
-<li>Zigbee 네트워크 리셋</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">파란색으로 1초 동안 깜빡임</td>
-<td style="text-align: left;">네트워크 연결 실패</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">파란색으로 한 번 깜빡임</td>
-<td style="text-align: left;">장치 리셋 실패</td>
-</tr>
-</tbody>
-</table>
+<section id="배터리-교체-방법" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="배터리-교체-방법"><span class="header-section-number">10.5</span> 배터리 교체 방법</h2>
+<p>(1) 드라이버를 사용하여 배터리 커버를 열어 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1298086045.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>(2) CR2450 배터리 2개를 배터리 카트리지의 맨 위와 아래쪽에 각각 설치해 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1379323306.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+<p>(3) 배터리를 교체한 후에 화살표에 표시된 방향에 따라 배터리 커버를 덮어 주세요.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1309665745.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
 </section>
-<section id="제품-사양" class="level2" data-number="16.4">
-<h2 data-number="16.4" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">16.4</span> 제품 사양</h2>
-<p>모델명: PS-S01</p>
+<section id="제품-사양" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">10.6</span> 제품 사양</h2>
+<p>모델명: MS-S02</p>
+<p>배터리 유형: CR2450</p>
 <p>무선 프로토콜: Zigbee 3.0</p>
-<p>입력 전원: 5V / 1A</p>
-<p>작동 온도: -10’C ~ +40’C</p>
-<p>작동 습도: 0 ~ 99% RH,비결로 조건</p>
-<p>구성품: 재실 센서 FP1 x 1, 사용자 매뉴얼 x 1, 스티커 x 1, 자석 x 1</p>
+<p>제품 크기: 33.1 x 33.1 x 41.6mm</p>
+<p>작동 온도: -10’C ~ 55’ C</p>
+<p>작동 습도: 0 ~ 95 RH / 비결로 조건</p>
+<p>구성품: 모션 센서 P1 x 1, 받침대 x 1, 스티커 x 1, 사용 설명서 x 1</p>
+</section>
+<section id="경고" class="level2" data-number="10.7">
+<h2 data-number="10.7" class="anchored" data-anchor-id="경고"><span class="header-section-number">10.7</span> 경고</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>본 제품은 반드시 어린이의 손이 닿지 않는 곳에 보관하세요.</p></li>
+<li><p>본 제품은 실내 사용 용도로 설계되었습니다. 습기가 많은 환경이나 실외에서 사용하지 마십시오.</p></li>
+<li><p>비바람에 노출된 장소, 물이 튀는 곳에 설치하지 마세요. 물 또는 액체류를 제품에 엎지를 경우 고장, 감전 및 화재의 위험이 있습니다.</p></li>
+<li><p>본 제품을 열원 부근에 설치하거나 환기가 잘 되지 않는 밀폐된 공간에서 상요하지 마세요.</p></li>
+<li><p>본 제품을 임으로 분해, 수리, 개조하지 마십시오. 수리가 필요한 경우 support@aqara.kr로 연락하십시오.</p></li>
+<li><p>본 제품은 생활의 편리 및 편의성을 개선하기 위한 용도로 적합합니다. 가정, 건물, 창고 또는 다른 장소의 방범 용도로 사용하는 것을 권장하지 않습니다. 사용자가 상기 사용 지침을 따르지 않고 해당 제품을 사용할 경우 발생하는 어떠한 위험 및 재산 손실에도 제조사는 귀책이 없음을 알려 드립니다.</p></li>
+</ul>
+</div>
+</div>
 
 
 </section>
@@ -912,13 +877,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./water_leakage.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">누수 감지 센서 T1</span></span>
+      <a href="./high_precision_motion.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">고감도 모션센서</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./fp2.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">재실 감지 센서 FP2</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./door.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
