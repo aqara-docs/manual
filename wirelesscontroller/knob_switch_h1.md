@@ -14,7 +14,7 @@ layout:
 
 # 무선 노브 스위치 H1
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/switch_h1wirelessknob_img_1.png" alt="" width="360"><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -28,6 +28,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명     | 무선 노브 스위치 H1         |

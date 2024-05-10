@@ -14,22 +14,23 @@ layout:
 
 # 고감도 모션센서
 
-<figure><img src="../.gitbook/assets/image (52).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sensor_highprecisionsensor_img_1.png" alt=""><figcaption></figcaption></figure>
 
 ### 제품 소개
 
 > 아카라 고감도 모션센서는 기존 모션센서보다 더 정확한 감지 기능과 더 다양한 자동화 시나리오를 구현하는 것을 가능하게 하는 장치입니다. 높은 민감도의 인체 적외선 감지 센서로, 추가 전원 공급장치 없이 간편하게 설치하여 정적인 상황에서도 다양한 자동화 시나리오 구현을 가능하게 합니다.
+>
+> 고감도 프로브, 정밀 증폭 회로, 고밀도 프레넬 렌즈를 장착한 고급 버전의 모션 센서로 작은 움직도 정확하게 감지할 수 있습니다.
 
-고감도 프로브, 정밀 증폭 회로, 고밀도 프레넬 렌즈를 장착한 고급 버전의 모션 센서로 작은 움직도 정확하게 감지할 수 있습니다.
-
+{% hint style="warning" %}
 * 5m 높이에서 최대지름 6m, 60°의 감지 범위를 커버하며, 실 감지 범위는 설치 환경에 따라 달라 질 수 있습니다.
-
-<figure><img src="../.gitbook/assets/image (53).png" alt="" width="375"><figcaption></figcaption></figure>
-
 * 아카라 고감도 모션 센서를 사용하기 위해서는 해당 제품을 지원하는 스마트 허브가 반드시 필요합니다.
+{% endhint %}
 
 {% tabs %}
 {% tab title="제품사양" %}
+<figure><img src="../.gitbook/assets/image (53).png" alt="" width="375"><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명     | 고감도 모션 센서            |

@@ -31,6 +31,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명             | 조명 스위치 H1 (1구/2구/3구/중성선)               |
@@ -68,8 +70,6 @@ layout:
 {% endtab %}
 
 {% tab title="설치 방법" %}
-<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
-
 ### 설치 전 확인 사항
 
 * 제품 설치/서비스 또는 수리 시, 반드시 주 전원을 차단하세요.

@@ -14,7 +14,7 @@ layout:
 
 # 홈카메라 허브 G2H/G2H Pro
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/camera_g2hpro_img_1.png" alt=""><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -24,6 +24,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명      | 홈카메라 허브 G2H/G2H Pro                                                                           |
@@ -77,7 +79,7 @@ layout:
 
 
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -160,6 +162,3 @@ Works with Apple 로고의 사용은 이 제품이 로고에 표시된 기술과
 {% endtab %}
 {% endtabs %}
 
-
-
-###

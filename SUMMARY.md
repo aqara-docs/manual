@@ -3,19 +3,19 @@
 ## 허브 <a href="#smarthub" id="smarthub"></a>
 
 * [스마트 허브 M2](README.md)
-* [스마트 허브 E1](smarthub/e1.md)
+* [스마트 허브 E1](hub/2-e1.md)
 
 ## 스마트 카메라 / 도어벨 <a href="#camera" id="camera"></a>
 
-* [클라우드 서비스](camera/cloud.md)
-* [홈카메라 허브 G2H/G2H Pro](camera/g2h-g2h-pro.md)
-* [홈카메라 허브 G3](camera/g3.md)
-* [스마트 카메라 E1](camera/e1.md)
-* [도어벨 G4](camera/g4.md)
+* [클라우드 서비스](camera/3.md)
+* [홈카메라 허브 G2H/G2H Pro](camera/4-g2h-g2h-pro.md)
+* [홈카메라 허브 G3](camera/5-g3.md)
+* [스마트 카메라 E1](camera/6-e1.md)
+* [도어벨 G4](camera/7-g4.md)
 
 ## 스마트 도어락 <a href="#doorlock" id="doorlock"></a>
 
-* [스마트 도어락 K100](doorlock/k100.md)
+* [스마트 도어락 K100](doorlock/8.-k100.md)
 
 ## 스마트센서 <a href="#smartsensor" id="smartsensor"></a>
 
@@ -50,4 +50,21 @@
 * [스마트 디머 컨트롤러 T1 Pro](light\_plug\_relay/dimmer\_t1\_pro.md)
 * [싱글 스위치 모듈 T1 (중성선)](light\_plug\_relay/single\_switch\_module.md)
 * [듀얼릴레이 모듈 T2 (중성선)](light\_plug\_relay/dual\_relay.md)
-* [LED 스트립 드라이버](light\_plug\_relay/led.md)
+* [LED 스트립 드라이버](light\_plug\_relay/led\_driver.md)
+* [LED 스트립 T1](light\_plug\_relay/led\_strip.md)
+* [스마트 무선 센서등](light\_plug\_relay/sensor\_light.md)
+* [스마트 플러그](light\_plug\_relay/plug.md)
+* [스포트라이트/다운라이트 T2](light\_plug\_relay/spotlight\_downlight\_t2.md)
+
+## 매직패드 <a href="#magicpad" id="magicpad"></a>
+
+* [매직패드 S1 Plus](magicpad/s1-plus.md)
+
+## 스마트 커튼/블라인드 <a href="#curtain_blind" id="curtain_blind"></a>
+
+* [스마트 커튼 컨트롤러](curtain\_blind/curtain.md)
+* [스마트 블라인드 컨트롤러](curtain\_blind/undefined.md)
+
+## 스마트 펫 <a href="#smartpet" id="smartpet"></a>
+
+* [스마트 자동 급식기 C1](smartpet/feeder\_c1.md)

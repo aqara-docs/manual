@@ -14,7 +14,7 @@ layout:
 
 # 싱글 스위치 모듈 T1 (중성선)
 
-<figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/switch_singleswitchmodule_img_1.png" alt="" width="360"><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -37,6 +37,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명            | 싱글 스위치 모듈 T1 (중성선)                          |

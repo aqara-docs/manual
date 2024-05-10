@@ -14,9 +14,7 @@ layout:
 
 # 무선 리모트 스위치 T1 2구
 
-<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/switch_t1wirelesswitch2_img_1.png" alt="" width="360"><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -32,6 +30,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명      | 무선 리모트 스위치 T1 2구     |

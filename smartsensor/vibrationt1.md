@@ -14,7 +14,7 @@ layout:
 
 # 진동 감지 센서 T1
 
-<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/vibrationt1.png" alt=""><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -30,6 +30,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명          | 진동 센서 T1                          |

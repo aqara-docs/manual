@@ -14,7 +14,7 @@ layout:
 
 # 조도 센서 T1
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sensor_t1illuminance_img_1.png" alt=""><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -27,6 +27,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명     | 조도 센서 T1                              |

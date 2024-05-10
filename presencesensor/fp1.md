@@ -1,6 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # 재실 감지 센서 FP1
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sensor_fp1_img_1.png" alt=""><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -13,6 +27,8 @@
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명     | 재실 감지 센서 FP1                               |

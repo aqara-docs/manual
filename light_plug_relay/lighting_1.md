@@ -14,7 +14,7 @@ layout:
 
 # 1구 스위치(중성선 불필요)
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/switch_t1smartlight1_img_1.png" alt="" width="360"><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -28,6 +28,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명     | 1구 스위치(중성선 불필요)                      |

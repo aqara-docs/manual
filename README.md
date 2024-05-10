@@ -14,7 +14,7 @@ layout:
 
 # 스마트 허브 M2
 
-<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/hub_m2_img_1.png" alt=""><figcaption></figcaption></figure>
 
 ### 제품소개
 
@@ -23,6 +23,10 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src=".gitbook/assets/image (30).png" alt="" width="563"><figcaption></figcaption></figure>
+
+### 제품 사양
+
 | 제품명            | 스마트 허브 M2                                                         |
 | -------------- | ----------------------------------------------------------------- |
 | 모델명            | HM2-G01                                                           |
@@ -71,13 +75,13 @@ layout:
 
 허브 설치 위치 선택: 허브는 집의 공유기로부터 2-6m 정도 떨어져 있어야 하며, 허브와 공유기 사이 그리고 허브 주변에 금속 차폐물이 없도록 하는 것이 좋습니다.
 
-<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 허브에 전원 연결: 5V-1A 또는 5V-2A 어댑터(별매)와 USB전원선을 사용하여 허브에 전원을 연결하세요.
 
 * 허브와 공유기 간에 유선 네트워크 통신을 사용해야 하는 경우, RJ45랜케이블을 사용하여 허브 LAN포트와 공유기 LAN포트를 연결하고 허브측 포트에 램프가 깜빡이는 것을 확인하세요.
 
-<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 허브 지시등이 노란색(또는 빨간색)이 켜져 있는 상태에서 깜빡임 표시로 바뀔 때까지 기다리세요, (초기 안내 음성은 영어로 진행됩니다.)
 

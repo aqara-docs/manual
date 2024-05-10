@@ -14,7 +14,7 @@ layout:
 
 # 듀얼릴레이 모듈 T2 (중성선)
 
-<figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/switch_dualrelaymodule_img_1 (1).png" alt="" width="360"><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -29,6 +29,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (164).png" alt="" width="563"><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명             | 듀얼릴레이 모듈 T2 (중성선)                                                                                                                                                                                  |

@@ -14,7 +14,7 @@ layout:
 
 # 스마트 디머 컨트롤러 T1 Pro
 
-<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/switch_constantt1pro_img_1.png" alt="" width="360"><figcaption></figcaption></figure>
 
 ### 제품 소개
 
@@ -22,6 +22,8 @@ layout:
 
 {% tabs %}
 {% tab title="제품 사양" %}
+<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+
 ### 제품 사양
 
 | 제품명     | 스마트 디머 컨트롤러 T1 Pro                              |
