@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Manual - 14&nbsp; 열림감지 센서 T1</title>
+<title>Manual - 10&nbsp; K100 - 무선 스위치 연동 방법</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./door_p2.html" rel="next">
-<link href="./motion_p2.html" rel="prev">
+<link href="./motion.html" rel="next">
+<link href="./doorlock_detail.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motion.html">스마트 센서</a></li><li class="breadcrumb-item"><a href="./door.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./doorlock.html">스마트 도어락</a></li><li class="breadcrumb-item"><a href="./k100_automation.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">K100 - 무선 스위치 연동 방법</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -199,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./k100_automation.html" class="sidebar-item-text sidebar-link">
+  <a href="./k100_automation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">K100 - 무선 스위치 연동 방법</span></span></a>
   </div>
 </li>
@@ -234,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./door.html" class="sidebar-item-text sidebar-link active">
+  <a href="./door.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></span></a>
   </div>
 </li>
@@ -478,26 +478,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#설치-영상" id="toc-설치-영상" class="nav-link active" data-scroll-target="#설치-영상"><span class="header-section-number">14.1</span> 설치 영상</a></li>
-  <li><a href="#제품-소개" id="toc-제품-소개" class="nav-link" data-scroll-target="#제품-소개"><span class="header-section-number">14.2</span> 제품 소개</a></li>
-  <li><a href="#제품-설치" id="toc-제품-설치" class="nav-link" data-scroll-target="#제품-설치"><span class="header-section-number">14.3</span> 제품 설치</a></li>
-  <li><a href="#빠른-설정" id="toc-빠른-설정" class="nav-link" data-scroll-target="#빠른-설정"><span class="header-section-number">14.4</span> 빠른 설정</a>
-  <ul class="collapse">
-  <li><a href="#aqara-home-앱-다운로드" id="toc-aqara-home-앱-다운로드" class="nav-link" data-scroll-target="#aqara-home-앱-다운로드"><span class="header-section-number">14.4.1</span> Aqara Home 앱 다운로드</a></li>
-  <li><a href="#장치-추가" id="toc-장치-추가" class="nav-link" data-scroll-target="#장치-추가"><span class="header-section-number">14.4.2</span> 장치 추가</a></li>
-  </ul></li>
-  <li><a href="#제품-사양" id="toc-제품-사양" class="nav-link" data-scroll-target="#제품-사양"><span class="header-section-number">14.5</span> 제품 사양</a></li>
-  <li><a href="#주의-사항" id="toc-주의-사항" class="nav-link" data-scroll-target="#주의-사항"><span class="header-section-number">14.6</span> 주의 사항</a></li>
-  <li><a href="#경고" id="toc-경고" class="nav-link" data-scroll-target="#경고"><span class="header-section-number">14.7</span> 경고</a></li>
+  <li><a href="#기능-설명" id="toc-기능-설명" class="nav-link active" data-scroll-target="#기능-설명"><span class="header-section-number">10.1</span> 기능 설명</a></li>
+  <li><a href="#기능-활성화" id="toc-기능-활성화" class="nav-link" data-scroll-target="#기능-활성화"><span class="header-section-number">10.2</span> 기능 활성화</a></li>
+  <li><a href="#자동실행-설정" id="toc-자동실행-설정" class="nav-link" data-scroll-target="#자동실행-설정"><span class="header-section-number">10.3</span> 자동실행 설정</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motion.html">스마트 센서</a></li><li class="breadcrumb-item"><a href="./door.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./doorlock.html">스마트 도어락</a></li><li class="breadcrumb-item"><a href="./k100_automation.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">K100 - 무선 스위치 연동 방법</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">열림감지 센서 T1</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">K100 - 무선 스위치 연동 방법</span></h1>
 </div>
 
 
@@ -514,179 +506,172 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="설치-영상" class="level2" data-number="14.1">
-<h2 data-number="14.1" class="anchored" data-anchor-id="설치-영상"><span class="header-section-number">14.1</span> 설치 영상</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wb4IVxqerMQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="제품-소개" class="level2" data-number="14.2">
-<h2 data-number="14.2" class="anchored" data-anchor-id="제품-소개"><span class="header-section-number">14.2</span> 제품 소개</h2>
-<p>아카라 열림 감지 센서는 센서 장치와 마그넷 사이의 거리를 통해 도어나 윈도우의 열림 및 닫힘 상태를 감지합니다. 에너지 소비가 적습니다. 도구가 필요하지 않으며, 그저 벗겨내고 붙이면 됩니다.</p>
+<section id="기능-설명" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="기능-설명"><span class="header-section-number">10.1</span> 기능 설명</h2>
+<p>다음 내용은 [9. K100 - 상세 설명서] 의 ’9.6.3.2 자동화를 통한 잠금 해제”에 대한 보충 설명으로 무선 스위치를 통해 스마트 도어락 K100을 원격 잠금 해제 할 수 있는 방법에 관한 것입니다.</p>
+<div class="callout callout-style-simple callout-important no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
 <ul>
-<li><p>허브 필요</p></li>
-<li><p>아카라 허브는 이 제품을 애플 홈킷 기술로 작동할 수 있게 하는데 필요합니다.</p></li>
-<li><p>이 제품은 실내용입니다.</p></li>
+<li>본 기능을 사용하기 위해서는 아카라 허브와 스마트 도어락 K100 연동이 필요합니다.</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-1053010240.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="400"></p>
-</figure>
+</div>
+</div>
 </div>
 </section>
-<section id="제품-설치" class="level2" data-number="14.3">
-<h2 data-number="14.3" class="anchored" data-anchor-id="제품-설치"><span class="header-section-number">14.3</span> 제품 설치</h2>
-<p>유효 범위 테스트: 원하는 위치에서 액세서리의 리셋 버튼을 한차례 누릅니다. 허브에 음성 프롬프트가 나타나는 경우, 액세서리가 허브와 유효하게 통신할 수 있다는 것을 나타냅니다.</p>
-<ul>
-<li><p>신호 강도를 극대화하려면 금속 표면에 놓지 마십시오.</p></li>
-<li><p>보호 필름을 제거합니다.</p></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-2226377091.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
-</figure>
-</div>
-<ul>
-<li>설치하는 동안, 센서 장치와 마그넷의 마커 라인을 정렬하도록 합니다.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-2496945238.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
-</figure>
-</div>
-<ul>
-<li>문이나 창에 붙입니다(센서 장치는 움직이지 않은 표면에, 마그넷은 움직이는 표면에 설치할 것이 권장되며, 문이나 창을 닫았을 때 설치 갭은 22mm 미만입니다).</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-3065516323.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
-</figure>
-</div>
-<ul>
-<li>표면을 깨끗하고 건조된 상태로 유지합니다.</li>
-</ul>
-</section>
-<section id="빠른-설정" class="level2" data-number="14.4">
-<h2 data-number="14.4" class="anchored" data-anchor-id="빠른-설정"><span class="header-section-number">14.4</span> 빠른 설정</h2>
-<section id="aqara-home-앱-다운로드" class="level3" data-number="14.4.1">
-<h3 data-number="14.4.1" class="anchored" data-anchor-id="aqara-home-앱-다운로드"><span class="header-section-number">14.4.1</span> Aqara Home 앱 다운로드</h3>
-<p>앱 스토어에서 “Aqara Home”을 검색하거나 아래 로고를 클릭해 주세요.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://apps.apple.com/kr/app/aqara-home/id1248669703"><img src="images/clipboard-432224561.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="애플 앱스토어" width="100"></a></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://play.google.com/store/apps/details?id=com.lumiunited.aqarahome.play&amp;pli=1"><img src="images/clipboard-1940580720.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="구글 스토어" width="100"></a></p>
-</figure>
-</div>
-</section>
-<section id="장치-추가" class="level3" data-number="14.4.2">
-<h3 data-number="14.4.2" class="anchored" data-anchor-id="장치-추가"><span class="header-section-number">14.4.2</span> 장치 추가</h3>
-<ul>
-<li><p>아카라 허브의 사용 설명서에 따라 허브를 앱에 추가해 주십시오.</p></li>
-<li><p>사용 전에 배터리 절연 탭을 제거해 주십시오.</p></li>
-<li><p>아카라홈앱을 열고 메인 화면의 오른쪽 상단 구석의 “+”를 누르고, “장치 추가”를 누릅니다. “센서” 탭을 누르시고 “열림감지 센서 T1” 선택하신 후, 지시에 따라 장치를 추가 합니다.</p></li>
-<li><p>연결이 되지 않는 경우, 열림감지 센서를 허브에 더 가까이 이동시켜서 다시 시도해 주십시오.</p></li>
-</ul>
-</section>
-</section>
-<section id="제품-사양" class="level2" data-number="14.5">
-<h2 data-number="14.5" class="anchored" data-anchor-id="제품-사양"><span class="header-section-number">14.5</span> 제품 사양</h2>
+<section id="기능-활성화" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="기능-활성화"><span class="header-section-number">10.2</span> 기능 활성화</h2>
+<p>본 기능을 활용하기 위해서는 활성화가 필요합니다.</p>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">제품명</th>
-<th style="text-align: center;">열림 감지 센서 T1</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">모델명</td>
-<td style="text-align: center;">MCCGQ12LM</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">제품 크기</td>
-<td style="text-align: center;">41 x 22 x 11mm</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">무선 프로토콜</td>
-<td style="text-align: center;">Zigbee 3.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">배터리</td>
-<td style="text-align: center;">CR1632</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">최대 감지 거리</td>
-<td style="text-align: center;">22mm</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">작동 온도</td>
-<td style="text-align: center;">-10°C~ 50°C</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">작동 습도</td>
-<td style="text-align: center;">0 ~ 95% RH / 비결로 조건</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li>앱 하단 장치 탭에서 K100 선택 &gt;&gt; 우측 상단 …을 눌러 상세 설정 페이지로 진입합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1611579541.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>원격 기능 항목을 선택합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3566298161.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li><p>자동화를 통한 잠금 해제 기능을 활성화합니다. 이제 앱 하단 자동실행 탭에서 무선 스위치를 농한 잠금 해제 설정이 가능합니다.</p>
+<ul>
+<li><p>현재 자동화 조건으로 사용 가능한 제품은 다음과 같습니다.</p></li>
+<li><p>무선 미니 스위치 T1, 무선 리모트 스위치 1구/2구, 큐브 T1 Pro</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1402798798.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 </div>
 </div>
 </div>
 </section>
-<section id="주의-사항" class="level2" data-number="14.6">
-<h2 data-number="14.6" class="anchored" data-anchor-id="주의-사항"><span class="header-section-number">14.6</span> 주의 사항</h2>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
+<section id="자동실행-설정" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="자동실행-설정"><span class="header-section-number">10.3</span> 자동실행 설정</h2>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-Caution
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="callout-body-container">
 <ul>
-<li><p>본 제품은 장난감이 아닙니다. 이 제품을 아이의 손이 닿지 않는 곳에 두세요.</p></li>
-<li><p>본 제품은 실내 사용 용도로 설계되었습니다. 습한 환경이나 실외에서 사용하지 마세요.</p></li>
-<li><p>물기를 조심합니다. 물이나 다른 액체를 제품에 엎지르지 마세요.</p></li>
-<li><p>본 제품을 열원 부근에 놓지 마세요. 제대로 환기되지 않는 곳에 놓지 마세요.</p></li>
-<li><p>본 제품을 자체적으로 수리하려고 하지 마세요. support@aqara.kr에 연락하시기 바랍니다.</p></li>
-<li><p>본 제품은 가정 생활의 오락, 편의성 및 메시지 알림을 개선하는 경우에만 적합합니다. 사용자가 제품 사용 지침을 위반하는 경우, 제조업체는 어떠한 위험 및 재산 손실에도 책임을 지지 않습니다.</p></li>
+<li>앱 하단 장치 탭에서 K100 선택 &gt;&gt; 우측 상단 …을 눌러 상세 설정 페이지로 진입합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1939482487.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ul>
+<li>자동실행 동시실행 항목을 선택합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2516353692.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>자동실행 항목을 선택합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1072201001.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>만들기를 눌러 자동실행 설정 페이지로 진입합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1203981033.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>IF) 실행조건 아래의 ’추가’를 눌러 잠금 해제 조건이 될 기기를 선택하는 페이지로 진입합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1310130070.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>잠금 해제 조건이 될 장치를 선택합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-714288591.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>원하는 동작 조건을 선택합니다. 본 예시는 ’왼쪽 버튼 한번 누름’으로 진행</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3572944365.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>THEN) 실행결과 아래의 ’추가’를 눌러 잠금 해제 결과가 될 K100을 선택하는 페이지로 진입합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1056976176.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>잠금 해제 결과가 될 스마트 도어락 K100을 선택합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2108369604.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="243"></p>
+</figure>
+</div>
+<ul>
+<li>’열기’를 선택합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2516353692.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ul>
+<li>의도한 조건과 결과가 맞는지 다시 한번 확인 후 우측 상단 ’저장’을 눌러 원하는 이름 설정 후 완료합니다.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-4206810601.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-important no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ul>
+<li>이제 설정한 조건에 따라 K100을 무선 스위치를 통해 잠금 해제할 수 있습니다.</li>
 </ul>
 </div>
-</div>
-</section>
-<section id="경고" class="level2" data-number="14.7">
-<h2 data-number="14.7" class="anchored" data-anchor-id="경고"><span class="header-section-number">14.7</span> 경고</h2>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><p>배터리를 잘못된 유형으로 교체하는 경우 폭발의 위험이 있습니다.</p></li>
-<li><p>사용한 배터리는 지침에 따라 폐기하십시오.</p></li>
-<li><p>배터리를 삼키지 마십시오. 화학적 화상의 위험이 있습니다.</p></li>
-<li><p>본 제품에는 코인/버튼 셀 배터리가 포함되어 있습니다. 코인/버튼 셀 배터리를 삼킬 경우 단 2시간 만에 심한 화상을 입을 수 있으며 사망에 이를 수 있습니다.</p></li>
-<li><p>새 배터리와 사용한 배터는 어린아이의 손이 닿지 않는 곳에 보관하시시오.</p></li>
-<li><p>배터리를 삼켰거나 배터리가 신체의 어느 부위라도삽입된 것이라고 생각되면 즉시 의사의 진료를 받으십시오.</p></li>
-<li><p>배터리를 불이나 뜨거운 오븐에 폐기하거나 기계적으로 압쇄하거나 절단하면 폭발을 일으킬 수 있습니다.</p></li>
-<li><p>배터리를 온도가 매우 높은 환경에 두면 폭발이나 인화성 액체 또는 가스의 누출을 유발할 수 있습니다.</p></li>
-<li><p>극저기압에 노출된 배터리는 폭발이나 인화성 액체 또는 가스의 누출을 유발할 수 있습니다.</p></li>
-<li><p>본 기기는 2m 이하의 높이에서만 장착 가능합니다.</p></li>
-</ul>
 </div>
 </div>
 
@@ -1105,13 +1090,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./motion_p2.html" class="pagination-link" aria-label="모션/조도 센서 P2">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">모션/조도 센서 P2</span></span>
+      <a href="./doorlock_detail.html" class="pagination-link" aria-label="K100 - 상세 설명서">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">K100 - 상세 설명서</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./door_p2.html" class="pagination-link" aria-label="열림 감지 센서 P2">
-        <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">열림 감지 센서 P2</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./motion.html" class="pagination-link" aria-label="모션 센서 T1">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">모션 센서 T1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
