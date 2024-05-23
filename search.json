@@ -2813,5 +2813,60 @@
       "스마트 펫",
       "<span class='chapter-number'>41</span>  <span class='chapter-title'>스마트 자동 급식기 C1</span>"
     ]
+  },
+  {
+    "objectID": "cloud.html",
+    "href": "cloud.html",
+    "title": "3  클라우드 서비스",
+    "section": "",
+    "text": "3.1 클라우드 서비스 가입 방법\n(1) 아카라홈 앱 하단의 “내정보”를 누르신 후 우측 상단의 “부가 서비스”를 클릭해 주세요. 그리고, 클라우드 서비스를 이용하고자 하는 카메라를 선택하고 결제를 진행합니다.\n(2) 위에서 결제를 진행하시면 하기와 같은 요금제 보실 수 있습니다. 원하시는 요금제(30일 or 1년 구독권)를 선택하신 후 결제를 진행하시면 됩니다.",
+    "crumbs": [
+      "스마트 카메라 | 도어벨",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>클라우드 서비스</span>"
+    ]
+  },
+  {
+    "objectID": "cloud.html#클라우드-서비스-가입-방법",
+    "href": "cloud.html#클라우드-서비스-가입-방법",
+    "title": "3  클라우드 서비스",
+    "section": "",
+    "text": "Tip\n\n\n\n클라우드 서비스를 신청하신 후 클라우드 저장 영상은 다음 위치에서 확인하실 수 있습니다.\n카메라 메인 화면 &gt;&gt; 타임라인 &gt;&gt; 앨범 &gt;&gt; 비디오 푸시",
+    "crumbs": [
+      "스마트 카메라 | 도어벨",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>클라우드 서비스</span>"
+    ]
+  },
+  {
+    "objectID": "cloud.html#클라우드-서비스-취소-방법",
+    "href": "cloud.html#클라우드-서비스-취소-방법",
+    "title": "3  클라우드 서비스",
+    "section": "3.2 클라우드 서비스 취소 방법",
+    "text": "3.2 클라우드 서비스 취소 방법\n다음과 같은 순서로 구독을 취소하실 수 있습니다.",
+    "crumbs": [
+      "스마트 카메라 | 도어벨",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>클라우드 서비스</span>"
+    ]
+  },
+  {
+    "objectID": "cloud.html#클라우드-요금제-선택시-주의-사항",
+    "href": "cloud.html#클라우드-요금제-선택시-주의-사항",
+    "title": "3  클라우드 서비스",
+    "section": "3.3 클라우드 요금제 선택시 주의 사항",
+    "text": "3.3 클라우드 요금제 선택시 주의 사항\n\n\n\n\n\n\nCaution\n\n\n\n\n\n\n\n\n\n잔여기간에 대한 부분 취소가 안되기 때문에 구독 신청시 신중을 기해 주십시오.\n\n\n\n\n잔여 기간에 대한 부분 취소가 되지 않습니다. 예를 들면,\n\n(D)날짜에 30일권 결제가 되면 (D+2)일에 구독취소를 하더라도 잔여 28일간 이용 가능\n익월 부터 서비스 이용이 안됨\n\n특히 1년 구독권 선택시 다음 사항을 고려하시기 바랍니다.\n\n(D)날짜에 1년권 결제가 되면, (D+2)일에 구독취소를 하더라도 남은 363일동안 이용 가능\n익년부터 서비스 이용이 안됨.",
+    "crumbs": [
+      "스마트 카메라 | 도어벨",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>클라우드 서비스</span>"
+    ]
+  },
+  {
+    "objectID": "cloud.html#클라우드-서비스의-장점",
+    "href": "cloud.html#클라우드-서비스의-장점",
+    "title": "3  클라우드 서비스",
+    "section": "3.4 클라우드 서비스의 장점",
+    "text": "3.4 클라우드 서비스의 장점\n(1) 클라우드 이용 혜택\n\n\n\n\n\n\n\n\n\n\n(2) 카메라 클라우드 저장소 vs SD카드\n\n\n\n\n\n(3) 기타\n\n영상 저장 주기: 30일 연속 클라우드 저장\n영상 해상도: 30일 연속 저장 시 2K 해상도 지원 (지원 장치에 따라 상이)하며 무료 저장은 최대 360P를 지원합니다.\n스마트 알림 녹화: 기기 특성에 맞는 다양한 알림 이벤트를 지원합니다.",
+    "crumbs": [
+      "스마트 카메라 | 도어벨",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>클라우드 서비스</span>"
+    ]
   }
 ]
